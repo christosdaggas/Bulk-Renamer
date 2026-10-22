@@ -1,0 +1,195 @@
+/* Seamless window: the flat header bar shows this background, the same one the
+ * three panels use, so the top bar does not stand out from the content. */
+toolbarview.main-view {
+    background-color: @view_bg_color;
+}
+
+/* Text colors */
+.title-1, .title-2, .title-3, .title-4 {
+    color: @window_fg_color;
+}
+
+/* File list */
+.file-row {
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.file-row:hover {
+    background-color: alpha(@window_fg_color, 0.05);
+}
+
+.file-row:selected {
+    background-color: alpha(@accent_color, 0.15);
+}
+
+/* Preview section */
+/* The Files and Preview lists sit on cards like the boxed rules list; the
+ * rows draw no background of their own so the card's rounded corners show. */
+listview.card-list {
+    background: transparent;
+}
+
+listview.card-list > row:not(:last-child) {
+    border-bottom: 1px solid alpha(@window_fg_color, 0.08);
+}
+
+.preview-old {
+    color: alpha(@window_fg_color, 0.6);
+    text-decoration: line-through;
+}
+
+.preview-new {
+    color: @accent_color;
+    font-weight: bold;
+}
+
+/* Status indicators */
+.rename-success {
+    color: @success_color;
+}
+
+.rename-error {
+    color: @error_color;
+}
+
+.rename-warning {
+    color: @warning_color;
+}
+
+/* Popovers */
+popover.menu contents {
+    padding: 6px;
+}
+
+/* Drop zone */
+.drop-zone {
+    background-color: alpha(@accent_color, 0.1);
+    border: 2px dashed alpha(@accent_color, 0.5);
+    border-radius: 12px;
+}
+
+.drop-zone:hover {
+    background-color: alpha(@accent_color, 0.2);
+    border-color: @accent_color;
+}
+
+/* ============================================================
+ * Theme Selector
+ * ============================================================ */
+
+/* Theme container without background */
+.theme-selector-container {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.theme-selector {
+    border-radius: 50%;
+    border: 2px solid alpha(@window_fg_color, 0.3);
+    padding: 0;
+    margin: 0;
+}
+
+.theme-default {
+    background: conic-gradient(from 135deg, #ffffff 0deg, #ffffff 180deg, #1e1e1e 180deg, #1e1e1e 360deg);
+    background-size: 100% 100%;
+    background-origin: border-box;
+}
+
+.theme-light {
+    background-color: #ffffff;
+    border-color: alpha(@window_fg_color, 0.15);
+}
+
+.theme-dark {
+    background-color: #1e1e1e;
+}
+
+.theme-button {
+    padding: 4px;
+    min-width: 52px;
+    min-height: 52px;
+}
+
+.theme-button:checked {
+    background-color: alpha(@accent_color, 0.15);
+    border-radius: 50%;
+}
+
+.theme-button:checked .theme-selector {
+    border-color: @accent_color;
+    border-width: 3px;
+}
+
+.theme-check {
+    color: @accent_color;
+    background-color: @window_bg_color;
+    border-radius: 50%;
+    padding: 2px;
+    -gtk-icon-size: 16px;
+}
+
+/* ============================================================
+ * Menu Items
+ * ============================================================ */
+
+.menu-item {
+    border-radius: 6px;
+    margin: 1px 0;
+}
+
+.menu-item:hover {
+    background-color: alpha(@view_fg_color, 0.08);
+}
+
+/* ============================================================
+ * Status icon colors
+ * ============================================================ */
+
+.success {
+    color: @success_color;
+}
+
+.warning {
+    color: @warning_color;
+}
+
+.error {
+    color: @error_color;
+}
+
+/* ============================================================
+ * Draggable rule rows
+ * ============================================================ */
+
+.rule-row {
+    border-radius: 8px;
+    margin: 4px 6px;
+    transition: all 200ms ease;
+}
+
+.rule-row:hover {
+    background-color: alpha(@view_fg_color, 0.05);
+}
+
+.rule-row.dragging {
+    opacity: 0.5;
+    background-color: alpha(@accent_color, 0.15);
+}
+
+.rule-row.drag-hover {
+    background-color: alpha(@accent_color, 0.1);
+    border: 2px dashed @accent_color;
+}
+
+.rule-row .drag-handle {
+    opacity: 0.4;
+    transition: opacity 150ms ease;
+}
+
+.rule-row:hover .drag-handle {
+    opacity: 0.7;
+}

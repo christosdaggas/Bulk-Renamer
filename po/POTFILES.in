@@ -1,0 +1,10 @@
+# List of source files containing translatable strings
+src/ui/csv_io.rs
+src/ui/dialogs.rs
+src/ui/execution.rs
+src/ui/history_dialog.rs
+src/ui/menu.rs
+src/ui/preferences_dialog.rs
+src/ui/presets_dialog.rs
+src/ui/rule_dialogs.rs
+src/ui/window.rs

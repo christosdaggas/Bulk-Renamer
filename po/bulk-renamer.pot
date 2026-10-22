@@ -1,0 +1,1099 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the bulk-renamer package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: bulk-renamer\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Bulk-Renamer/issues\n"
+"POT-Creation-Date: 2026-10-22 13:03+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ui/csv_io.rs:17
+msgid "Import from CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:42
+msgid "Export Log"
+msgstr ""
+
+#: src/ui/csv_io.rs:58
+msgid "Rename log exported to CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:60 src/ui/csv_io.rs:185 src/ui/csv_io.rs:257
+msgid "Export Failed"
+msgstr ""
+
+#: src/ui/csv_io.rs:75
+msgid "Import CSV Renames"
+msgstr ""
+
+#: src/ui/csv_io.rs:77
+msgid "Apply {} renames from the CSV file?"
+msgstr ""
+
+#: src/ui/csv_io.rs:82 src/ui/dialogs.rs:52 src/ui/execution.rs:52
+#: src/ui/preferences_dialog.rs:22 src/ui/presets_dialog.rs:24
+#: src/ui/presets_dialog.rs:74 src/ui/presets_dialog.rs:161
+#: src/ui/rule_dialogs.rs:185 src/ui/window.rs:2048 src/ui/window.rs:2332
+msgid "Cancel"
+msgstr ""
+
+#: src/ui/csv_io.rs:83 src/ui/window.rs:334 src/ui/window.rs:2049
+msgid "Rename"
+msgstr ""
+
+#: src/ui/csv_io.rs:100
+msgid "CSV Import Failed"
+msgstr ""
+
+#: src/ui/csv_io.rs:113
+msgid "CSV must include an original_path column"
+msgstr ""
+
+#: src/ui/csv_io.rs:119
+msgid "CSV must include a new_name column"
+msgstr ""
+
+#: src/ui/csv_io.rs:159
+msgid "Nothing to Export"
+msgstr ""
+
+#: src/ui/csv_io.rs:160
+msgid "Add files to build a preview first."
+msgstr ""
+
+#: src/ui/csv_io.rs:166
+msgid "Export Preview as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:183
+msgid "Preview exported as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:219
+msgid "No Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:220 src/ui/history_dialog.rs:14
+msgid "No renames have been recorded yet."
+msgstr ""
+
+#: src/ui/csv_io.rs:226
+msgid "Export Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:255
+msgid "Undo script exported"
+msgstr ""
+
+#: src/ui/dialogs.rs:14 src/ui/window.rs:81 src/ui/window.rs:329
+#: src/ui/window.rs:368
+msgid "Bulk Renamer"
+msgstr ""
+
+#: src/ui/dialogs.rs:46
+msgid "Processing..."
+msgstr ""
+
+#: src/ui/execution.rs:84
+msgid "Renaming Files…"
+msgstr ""
+
+#: src/ui/execution.rs:85
+msgid "Preparing…"
+msgstr ""
+
+#: src/ui/execution.rs:93
+msgid "Cancelling…"
+msgstr ""
+
+#: src/ui/execution.rs:126
+msgid "{} of {} steps"
+msgstr ""
+
+#: src/ui/execution.rs:145
+msgid "Rename cancelled — no files were changed"
+msgstr ""
+
+#: src/ui/execution.rs:149 src/ui/window.rs:2022
+msgid "Rename Blocked"
+msgstr ""
+
+#: src/ui/execution.rs:173
+msgid "Undoing Rename…"
+msgstr ""
+
+#: src/ui/execution.rs:174
+msgid "Redoing Rename…"
+msgstr ""
+
+#: src/ui/execution.rs:178
+msgid "Working…"
+msgstr ""
+
+#: src/ui/execution.rs:225
+msgid "Undo Complete"
+msgstr ""
+
+#: src/ui/execution.rs:226
+msgid "Undo Incomplete"
+msgstr ""
+
+#: src/ui/execution.rs:227
+msgid "Undo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:231
+msgid "Redo Complete"
+msgstr ""
+
+#: src/ui/execution.rs:232
+msgid "Redo Incomplete"
+msgstr ""
+
+#: src/ui/execution.rs:233
+msgid "Redo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:239
+msgid "Restored {} of {} renamed files."
+msgstr ""
+
+#: src/ui/execution.rs:241
+msgid "Renamed {} of {} files again."
+msgstr ""
+
+#: src/ui/history_dialog.rs:13
+msgid "No History"
+msgstr ""
+
+#: src/ui/history_dialog.rs:20
+msgid "Rename History"
+msgstr ""
+
+#: src/ui/history_dialog.rs:46 src/ui/window.rs:2192
+msgid "Undo"
+msgstr ""
+
+#: src/ui/menu.rs:27
+msgid "Save Preset…"
+msgstr ""
+
+#: src/ui/menu.rs:28
+msgid "Load Preset…"
+msgstr ""
+
+#: src/ui/menu.rs:32
+msgid "Import from CSV…"
+msgstr ""
+
+#: src/ui/menu.rs:33
+msgid "Export Preview as CSV…"
+msgstr ""
+
+#: src/ui/menu.rs:34
+msgid "Export Log…"
+msgstr ""
+
+#: src/ui/menu.rs:35
+msgid "Export Undo Script…"
+msgstr ""
+
+#: src/ui/menu.rs:39
+msgid "Undo Last Rename"
+msgstr ""
+
+#: src/ui/menu.rs:40
+msgid "Redo Rename"
+msgstr ""
+
+#: src/ui/menu.rs:41
+msgid "Rename History…"
+msgstr ""
+
+#: src/ui/menu.rs:45 src/ui/preferences_dialog.rs:13
+msgid "Preferences"
+msgstr ""
+
+#: src/ui/menu.rs:46
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ui/menu.rs:47
+msgid "About Bulk Renamer"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:24 src/ui/presets_dialog.rs:25
+#: src/ui/rule_dialogs.rs:188
+msgid "Save"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:32
+msgid "Behavior"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:34
+msgid "Confirm Before Rename"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:38
+msgid "Live Preview"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:39
+msgid "Recompute the preview automatically after every change"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:43
+msgid "Show Unchanged Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:51 src/ui/window.rs:432
+msgid "Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:53
+msgid "Include Hidden Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:57
+msgid "Follow Symlinks"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:61
+msgid "Load Metadata"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:65
+msgid "Folder Scan Depth"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:82
+msgid "History and Logs"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:85
+msgid "Persist Undo History"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:86
+msgid "Undo always works during a session; this keeps it across restarts"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:90
+msgid "Log Rename Operations"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:15
+msgid "Save Preset"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:16
+msgid "Enter a name for this preset:"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:20
+msgid "Preset name"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:39 src/ui/presets_dialog.rs:97
+#: src/ui/presets_dialog.rs:113
+msgid "Preset Not Saved"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:40
+msgid "Preset name cannot be empty."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:68
+msgid "Replace preset “{}”?"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:72
+msgid "A preset with this name already exists. Its rules will be replaced."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:75 src/ui/rule_dialogs.rs:1297
+msgid "Replace"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:95 src/ui/presets_dialog.rs:112
+msgid "Preset saved"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:123
+msgid "No Presets"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:124
+msgid "There are no presets to load yet."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:131
+msgid "Load Preset"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:132
+msgid "Choose a preset to apply."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:148
+msgid "{} rules"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:162
+msgid "Load"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:171
+msgid "Edit {} Rule"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:188 src/ui/window.rs:808 src/ui/window.rs:2306
+msgid "Add Rule"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:305
+msgid "Find"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:306
+msgid "Replace with"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:308 src/ui/rule_dialogs.rs:565
+msgid "Case sensitive"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:312
+msgid "Use regular expressions"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:316
+msgid "Replace all occurrences"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:323 src/ui/rule_dialogs.rs:599
+#: src/ui/rule_dialogs.rs:912 src/ui/rule_dialogs.rs:1178
+msgid "Options"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:330
+msgid "Enter the text to find."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:334 src/ui/rule_dialogs.rs:620
+msgid "Invalid regular expression: {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:386
+msgid "Convert to"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:403
+msgid "Case Type"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:442 src/ui/rule_dialogs.rs:1324
+msgid "Insert"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:451
+msgid "Text to insert"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:459 src/ui/rule_dialogs.rs:683
+#: src/ui/rule_dialogs.rs:824 src/ui/rule_dialogs.rs:1171
+msgid "Insert at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:469
+msgid "Character position"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:488 src/ui/rule_dialogs.rs:701
+msgid "Position"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:498
+msgid "Enter the text to insert."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:549 src/ui/rule_dialogs.rs:1342
+msgid "Remove"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:563
+msgid "Text or pattern"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:569
+msgid "Number of characters"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:573
+msgid "Bracket type"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:607
+msgid "Enter the text to remove."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:617
+msgid "Enter the pattern to remove."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:657
+msgid "Start at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:661
+msgid "Increment by"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:665
+msgid "Digits (zero-padding)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:669
+msgid "Number format"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:691
+msgid "Separator"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:694
+msgid "Restart numbering per folder"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:699 src/ui/rule_dialogs.rs:1351
+msgid "Numbering"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:700 src/ui/rule_dialogs.rs:831
+msgid "Format"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:797
+msgid "Date source"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:806
+msgid "Custom…"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:811
+msgid "Date format"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:816
+msgid "Custom format (chrono)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:845
+msgid "Enter a chrono date format, e.g. %Y-%m-%d."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:882 src/ui/rule_dialogs.rs:1370
+msgid "Trim"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:893
+msgid "Characters to trim"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:895
+msgid "Maximum length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:922
+msgid "Enter the characters to trim."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:945
+msgid "Target length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:948
+msgid "Padding character"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:950
+msgid "Pad at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:956
+msgid "Padding"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:967
+msgid "Enter a padding character."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:991
+msgid "Collapse repeated spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:995
+msgid "Remove special characters"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:998
+msgid "Characters to preserve"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1000
+msgid "Remove accents and diacritics"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1004
+msgid "Normalize Unicode"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1008
+msgid "Spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1020 src/ui/rule_dialogs.rs:1403
+msgid "Clean Up"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1052
+msgid "Split on"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1059
+msgid "New order (e.g. 2, 1, 3)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1060
+msgid "Join with"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1063
+msgid ""
+"The name is split on the separator; parts are numbered from 1. Parts left "
+"out of the order are dropped."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1074 src/ui/rule_dialogs.rs:1406
+msgid "Rearrange"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1084
+msgid "Enter the separator to split on."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1096
+msgid ""
+"The order must be a comma-separated list of part numbers, starting at 1."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1103
+msgid "Enter at least one part number."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1158
+msgid "Metadata field"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1166
+msgid "Format (optional, for dates)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1169
+msgid "Fallback if missing"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1213 src/ui/rule_dialogs.rs:1445
+msgid "Expression"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1217
+msgid ""
+"Variables: {name}, {ext}, {parent}, {size}, {counter}, {date}.\n"
+"             Functions: ${upper(name)}, ${lower(name)}, ${replace(name, "
+"\"a\", \"b\")},              ${substr(name, 0, 5)}, ${trim(name)}, $"
+"{pad(counter, 3)}."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1230
+msgid "Template"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1236
+msgid "Enter an expression template."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1259 src/ui/rule_dialogs.rs:1455
+msgid "Conversion"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1271 src/ui/rule_dialogs.rs:1450
+msgid "Transliterate"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1293
+msgid "Remove \"{}\""
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1300
+msgid "Change Case"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1305 src/ui/rule_dialogs.rs:1432
+msgid "Date/Time"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1312
+msgid "Parent folder name"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1313
+msgid "Grandparent folder name"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1314
+msgid "Dynamic"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1317
+msgid "at beginning"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1318
+msgid "at end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1320
+msgid "at position {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1322 src/ui/rule_dialogs.rs:1348
+msgid "custom"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1329
+msgid "Pattern /{}/"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1331
+msgid "First {} chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1334
+msgid "Last {} chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1336
+msgid "All digits"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1337
+msgid "All whitespace"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1338
+msgid "Leading zeros"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1339
+msgid "Bracketed content"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1340
+msgid "Custom"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1346 src/ui/rule_dialogs.rs:1429
+#: src/ui/rule_dialogs.rs:1476
+msgid "prefix"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1347 src/ui/rule_dialogs.rs:1427
+#: src/ui/rule_dialogs.rs:1475
+msgid "suffix"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1352
+msgid "Start: {}, Pad: {} digits, {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1361
+msgid "Whitespace from both ends"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1362
+msgid "Whitespace from the start"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1363
+msgid "Whitespace from the end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1364
+msgid "Characters: {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1367
+msgid "Max length {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1373
+msgid "Pad"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1374
+msgid "To {} chars with '{}' at {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1379
+msgid "start"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1379
+msgid "end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1387
+msgid "collapse spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1390
+msgid "strip special chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1393
+msgid "strip accents"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1396
+msgid "replace spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1399
+msgid "Normalize"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1407
+msgid "Split on \"{}\", order {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1425 src/ui/rule_dialogs.rs:1472
+msgid "Date"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1433 src/ui/rule_dialogs.rs:1478
+msgid "{} as {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1440
+msgid "Metadata"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1466
+msgid "Modified date"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1467
+msgid "Created date"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1468
+msgid "Current date"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1469
+msgid "EXIF date"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1470
+msgid "Accessed date"
+msgstr ""
+
+#: src/ui/window.rs:244
+msgid "Interrupted Rename Detected"
+msgstr ""
+
+#: src/ui/window.rs:247
+msgid ""
+"A previous rename was interrupted and left {} file(s) under temporary "
+"names.                      Restore them to their original names now?"
+msgstr ""
+
+#: src/ui/window.rs:254
+msgid "Later"
+msgstr ""
+
+#: src/ui/window.rs:255
+msgid "Restore"
+msgstr ""
+
+#: src/ui/window.rs:266
+msgid "Restored {} file(s)."
+msgstr ""
+
+#: src/ui/window.rs:274 src/ui/window.rs:2243
+msgid "…and {} more."
+msgstr ""
+
+#: src/ui/window.rs:279
+msgid "Recovery Complete"
+msgstr ""
+
+#: src/ui/window.rs:281
+msgid "Recovery Incomplete"
+msgstr ""
+
+#: src/ui/window.rs:317
+msgid "Wait until the current operation finishes"
+msgstr ""
+
+#: src/ui/window.rs:350
+msgid "Menu"
+msgstr ""
+
+#: src/ui/window.rs:376
+msgid "A powerful bulk file renaming application for Linux"
+msgstr ""
+
+#: src/ui/window.rs:379
+msgid "Created by"
+msgstr ""
+
+#: src/ui/window.rs:440
+msgid "Add Files"
+msgstr ""
+
+#: src/ui/window.rs:447
+msgid "Add Folder"
+msgstr ""
+
+#: src/ui/window.rs:454
+msgid "Clear All"
+msgstr ""
+
+#: src/ui/window.rs:478
+msgid "Sort Files"
+msgstr ""
+
+#: src/ui/window.rs:501 src/ui/window.rs:1642
+msgid "{} files"
+msgstr ""
+
+#: src/ui/window.rs:506 src/ui/window.rs:1658
+msgid "{} selected"
+msgstr ""
+
+#: src/ui/window.rs:528
+msgid "Filter by name (use * and ? for globs)"
+msgstr ""
+
+#: src/ui/window.rs:541
+msgid "Extensions: jpg, png"
+msgstr ""
+
+#: src/ui/window.rs:543
+msgid "Only rename files with these extensions (comma-separated)"
+msgstr ""
+
+#: src/ui/window.rs:579
+msgid "Include in the rename"
+msgstr ""
+
+#: src/ui/window.rs:644
+msgid "No Files"
+msgstr ""
+
+#: src/ui/window.rs:645
+msgid "Drop files here or click + to add"
+msgstr ""
+
+#: src/ui/window.rs:687
+msgid "Select All"
+msgstr ""
+
+#: src/ui/window.rs:693
+msgid "Remove Selected"
+msgstr ""
+
+#: src/ui/window.rs:800
+msgid "Rules"
+msgstr ""
+
+#: src/ui/window.rs:815
+msgid "Clear All Rules"
+msgstr ""
+
+#: src/ui/window.rs:839
+msgid "Apply to"
+msgstr ""
+
+#: src/ui/window.rs:841
+msgid "Files only"
+msgstr ""
+
+#: src/ui/window.rs:842
+msgid "Folders only"
+msgstr ""
+
+#: src/ui/window.rs:843
+msgid "Both"
+msgstr ""
+
+#: src/ui/window.rs:869
+msgid ""
+"No rules added\n"
+"Click + to add a rule"
+msgstr ""
+
+#: src/ui/window.rs:889
+msgid "Process extension separately"
+msgstr ""
+
+#: src/ui/window.rs:950
+msgid "Preview"
+msgstr ""
+
+#: src/ui/window.rs:958
+msgid "Refresh Preview"
+msgstr ""
+
+#: src/ui/window.rs:977
+msgid "0 will be renamed"
+msgstr ""
+
+#: src/ui/window.rs:988
+msgid "Add Numbers"
+msgstr ""
+
+#: src/ui/window.rs:995
+msgid "Collisions are renamed with (n) suffixes"
+msgstr ""
+
+#: src/ui/window.rs:1034
+msgid "Original"
+msgstr ""
+
+#: src/ui/window.rs:1034
+msgid "New Name"
+msgstr ""
+
+#: src/ui/window.rs:1118
+msgid "No files to preview"
+msgstr ""
+
+#: src/ui/window.rs:1443
+msgid "Select Files"
+msgstr ""
+
+#: src/ui/window.rs:1466
+msgid "Select Folder"
+msgstr ""
+
+#: src/ui/window.rs:1672
+msgid "{} file — {}"
+msgstr ""
+
+#: src/ui/window.rs:1674
+msgid "{} files — {}"
+msgstr ""
+
+#: src/ui/window.rs:1875
+msgid "Excluded from this batch"
+msgstr ""
+
+#: src/ui/window.rs:1885
+msgid "Filtered out"
+msgstr ""
+
+#: src/ui/window.rs:1899
+msgid "Manually renamed"
+msgstr ""
+
+#: src/ui/window.rs:1944
+msgid "{} rename, {} unchanged, {} conflicts, {} errors"
+msgstr ""
+
+#: src/ui/window.rs:1959
+msgid "{} name collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:1961
+msgid "{} names collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:2015
+msgid "Nothing to Rename"
+msgstr ""
+
+#: src/ui/window.rs:2016
+msgid "No files will be renamed with the current rules."
+msgstr ""
+
+#: src/ui/window.rs:2023
+msgid "Resolve the conflicts and errors shown in the preview first."
+msgstr ""
+
+#: src/ui/window.rs:2040
+msgid "Confirm Rename"
+msgstr ""
+
+#: src/ui/window.rs:2042
+msgid "Rename {} files?"
+msgstr ""
+
+#: src/ui/window.rs:2092
+msgid "Renamed {} files"
+msgstr ""
+
+#: src/ui/window.rs:2108
+msgid "Renamed {} files successfully, {} failed."
+msgstr ""
+
+#: src/ui/window.rs:2112
+msgid "Rename Completed with Errors"
+msgstr ""
+
+#: src/ui/window.rs:2213
+msgid "OK"
+msgstr ""
+
+#: src/ui/window.rs:2307
+msgid "Select the type of rule to add:"
+msgstr ""
+
+#: src/ui/window.rs:2522
+msgid "Drag to reorder"
+msgstr ""
+
+#: src/ui/window.rs:2562
+msgid "Enable this rule"
+msgstr ""
+
+#: src/ui/window.rs:2571
+msgid "Edit rule"
+msgstr ""
+
+#: src/ui/window.rs:2578
+msgid "Remove rule"
+msgstr ""
+
+#: src/ui/window.rs:2764
+msgid "Loaded preset '{}'"
+msgstr ""
+
+#: src/ui/window.rs:2820
+msgid "Click to type a name for this file; clear it to follow the rules again"
+msgstr ""

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bulk Renamer
+Comment=Rename multiple files at once using flexible rules
+Exec=bulk-renamer %F
+Icon=com.chrisdaggas.bulk-renamer
+Terminal=false
+Type=Application
+Categories=Utility;FileTools;GTK;
+Keywords=rename;files;bulk;batch;
+StartupNotify=true
+StartupWMClass=com.chrisdaggas.bulk-renamer

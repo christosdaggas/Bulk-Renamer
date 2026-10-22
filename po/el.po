@@ -1,0 +1,1302 @@
+# Greek translation for bulk-renamer.
+# Copyright (C) 2024-2026 Christos A. Daggas
+# This file is distributed under the same license as the bulk-renamer package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bulk-renamer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Bulk-Renamer/issues\n"
+"POT-Creation-Date: 2026-10-22 13:03+0300\n"
+"PO-Revision-Date: 2026-01-06 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Greek\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/ui/csv_io.rs:17
+msgid "Import from CSV"
+msgstr "Εισαγωγή από CSV"
+
+#: src/ui/csv_io.rs:42
+msgid "Export Log"
+msgstr "Εξαγωγή αρχείου καταγραφής"
+
+#: src/ui/csv_io.rs:58
+msgid "Rename log exported to CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:60 src/ui/csv_io.rs:185 src/ui/csv_io.rs:257
+#, fuzzy
+msgid "Export Failed"
+msgstr "Εξαγωγή αρχείου καταγραφής"
+
+#: src/ui/csv_io.rs:75
+#, fuzzy
+msgid "Import CSV Renames"
+msgstr "Εισαγωγή από CSV"
+
+#: src/ui/csv_io.rs:77
+msgid "Apply {} renames from the CSV file?"
+msgstr ""
+
+#: src/ui/csv_io.rs:82 src/ui/dialogs.rs:52 src/ui/execution.rs:52
+#: src/ui/preferences_dialog.rs:22 src/ui/presets_dialog.rs:24
+#: src/ui/presets_dialog.rs:74 src/ui/presets_dialog.rs:161
+#: src/ui/rule_dialogs.rs:185 src/ui/window.rs:2048 src/ui/window.rs:2332
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: src/ui/csv_io.rs:83 src/ui/window.rs:334 src/ui/window.rs:2049
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: src/ui/csv_io.rs:100
+msgid "CSV Import Failed"
+msgstr ""
+
+#: src/ui/csv_io.rs:113
+msgid "CSV must include an original_path column"
+msgstr ""
+
+#: src/ui/csv_io.rs:119
+msgid "CSV must include a new_name column"
+msgstr ""
+
+#: src/ui/csv_io.rs:159
+#, fuzzy
+msgid "Nothing to Export"
+msgstr "Τίποτα προς μετονομασία"
+
+#: src/ui/csv_io.rs:160
+#, fuzzy
+msgid "Add files to build a preview first."
+msgstr "Προσθέστε αρχεία και κανόνες για προεπισκόπηση"
+
+#: src/ui/csv_io.rs:166
+msgid "Export Preview as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:183
+msgid "Preview exported as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:219
+msgid "No Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:220 src/ui/history_dialog.rs:14
+msgid "No renames have been recorded yet."
+msgstr ""
+
+#: src/ui/csv_io.rs:226
+msgid "Export Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:255
+msgid "Undo script exported"
+msgstr ""
+
+#: src/ui/dialogs.rs:14 src/ui/window.rs:81 src/ui/window.rs:329
+#: src/ui/window.rs:368
+msgid "Bulk Renamer"
+msgstr "Μαζική μετονομασία"
+
+#: src/ui/dialogs.rs:46
+msgid "Processing..."
+msgstr "Επεξεργασία…"
+
+#: src/ui/execution.rs:84
+#, fuzzy
+msgid "Renaming Files…"
+msgstr "Αποτυχία μετονομασίας"
+
+#: src/ui/execution.rs:85
+msgid "Preparing…"
+msgstr ""
+
+#: src/ui/execution.rs:93
+#, fuzzy
+msgid "Cancelling…"
+msgstr "Ακύρωση"
+
+#: src/ui/execution.rs:126
+msgid "{} of {} steps"
+msgstr ""
+
+#: src/ui/execution.rs:145
+msgid "Rename cancelled — no files were changed"
+msgstr ""
+
+#: src/ui/execution.rs:149 src/ui/window.rs:2022
+#, fuzzy
+msgid "Rename Blocked"
+msgstr "Αποτυχία μετονομασίας"
+
+#: src/ui/execution.rs:173
+#, fuzzy
+msgid "Undoing Rename…"
+msgstr "Τίποτα προς μετονομασία"
+
+#: src/ui/execution.rs:174
+#, fuzzy
+msgid "Redoing Rename…"
+msgstr "Τίποτα προς μετονομασία"
+
+#: src/ui/execution.rs:178
+msgid "Working…"
+msgstr ""
+
+#: src/ui/execution.rs:225
+#, fuzzy
+msgid "Undo Complete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/execution.rs:226
+#, fuzzy
+msgid "Undo Incomplete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/execution.rs:227
+msgid "Undo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:231
+#, fuzzy
+msgid "Redo Complete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/execution.rs:232
+#, fuzzy
+msgid "Redo Incomplete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/execution.rs:233
+msgid "Redo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:239
+#, fuzzy
+msgid "Restored {} of {} renamed files."
+msgstr "Αποτυχία μετονομασίας %d αρχείων."
+
+#: src/ui/execution.rs:241
+msgid "Renamed {} of {} files again."
+msgstr ""
+
+#: src/ui/history_dialog.rs:13
+msgid "No History"
+msgstr ""
+
+#: src/ui/history_dialog.rs:20
+#, fuzzy
+msgid "Rename History"
+msgstr "Μετονομασία %d αρχείων;"
+
+#: src/ui/history_dialog.rs:46 src/ui/window.rs:2192
+msgid "Undo"
+msgstr ""
+
+#: src/ui/menu.rs:27
+msgid "Save Preset…"
+msgstr "Αποθήκευση προρύθμισης…"
+
+#: src/ui/menu.rs:28
+msgid "Load Preset…"
+msgstr "Φόρτωση προρύθμισης…"
+
+#: src/ui/menu.rs:32
+msgid "Import from CSV…"
+msgstr "Εισαγωγή από CSV…"
+
+#: src/ui/menu.rs:33
+#, fuzzy
+msgid "Export Preview as CSV…"
+msgstr "Εισαγωγή από CSV…"
+
+#: src/ui/menu.rs:34
+msgid "Export Log…"
+msgstr "Εξαγωγή αρχείου καταγραφής…"
+
+#: src/ui/menu.rs:35
+#, fuzzy
+msgid "Export Undo Script…"
+msgstr "Εξαγωγή αρχείου καταγραφής…"
+
+#: src/ui/menu.rs:39
+#, fuzzy
+msgid "Undo Last Rename"
+msgstr "Τίποτα προς μετονομασία"
+
+#: src/ui/menu.rs:40
+#, fuzzy
+msgid "Redo Rename"
+msgstr "Μετονομασία"
+
+#: src/ui/menu.rs:41
+msgid "Rename History…"
+msgstr ""
+
+#: src/ui/menu.rs:45 src/ui/preferences_dialog.rs:13
+msgid "Preferences"
+msgstr ""
+
+#: src/ui/menu.rs:46
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ui/menu.rs:47
+msgid "About Bulk Renamer"
+msgstr "Σχετικά με τη Μαζική μετονομασία"
+
+#: src/ui/preferences_dialog.rs:24 src/ui/presets_dialog.rs:25
+#: src/ui/rule_dialogs.rs:188
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: src/ui/preferences_dialog.rs:32
+msgid "Behavior"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:34
+#, fuzzy
+msgid "Confirm Before Rename"
+msgstr "Επιβεβαίωση μετονομασίας"
+
+#: src/ui/preferences_dialog.rs:38
+#, fuzzy
+msgid "Live Preview"
+msgstr "Προεπισκόπηση"
+
+#: src/ui/preferences_dialog.rs:39
+msgid "Recompute the preview automatically after every change"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:43
+msgid "Show Unchanged Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:51 src/ui/window.rs:432
+msgid "Files"
+msgstr "Αρχεία"
+
+#: src/ui/preferences_dialog.rs:53
+msgid "Include Hidden Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:57
+msgid "Follow Symlinks"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:61
+msgid "Load Metadata"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:65
+msgid "Folder Scan Depth"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:82
+msgid "History and Logs"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:85
+msgid "Persist Undo History"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:86
+msgid "Undo always works during a session; this keeps it across restarts"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:90
+msgid "Log Rename Operations"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:15
+msgid "Save Preset"
+msgstr "Αποθήκευση προρύθμισης"
+
+#: src/ui/presets_dialog.rs:16
+msgid "Enter a name for this preset:"
+msgstr "Εισάγετε όνομα για αυτή την προρύθμιση:"
+
+#: src/ui/presets_dialog.rs:20
+msgid "Preset name"
+msgstr "Όνομα προρύθμισης"
+
+#: src/ui/presets_dialog.rs:39 src/ui/presets_dialog.rs:97
+#: src/ui/presets_dialog.rs:113
+#, fuzzy
+msgid "Preset Not Saved"
+msgstr "Όνομα προρύθμισης"
+
+#: src/ui/presets_dialog.rs:40
+msgid "Preset name cannot be empty."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:68
+msgid "Replace preset “{}”?"
+msgstr "Αντικατάσταση της προρύθμισης «{}»;"
+
+#: src/ui/presets_dialog.rs:72
+msgid "A preset with this name already exists. Its rules will be replaced."
+msgstr "Υπάρχει ήδη προρύθμιση με αυτό το όνομα. Οι κανόνες της θα αντικατασταθούν."
+
+#: src/ui/presets_dialog.rs:75 src/ui/rule_dialogs.rs:1297
+msgid "Replace"
+msgstr "Αντικατάσταση"
+
+#: src/ui/presets_dialog.rs:95 src/ui/presets_dialog.rs:112
+#, fuzzy
+msgid "Preset saved"
+msgstr "Όνομα προρύθμισης"
+
+#: src/ui/presets_dialog.rs:123
+#, fuzzy
+msgid "No Presets"
+msgstr "Προρυθμίσεις"
+
+#: src/ui/presets_dialog.rs:124
+msgid "There are no presets to load yet."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:131
+#, fuzzy
+msgid "Load Preset"
+msgstr "Φόρτωση προρύθμισης…"
+
+#: src/ui/presets_dialog.rs:132
+#, fuzzy
+msgid "Choose a preset to apply."
+msgstr "Επιλέξτε μια προρύθμιση για εφαρμογή:"
+
+#: src/ui/presets_dialog.rs:148
+#, fuzzy
+msgid "{} rules"
+msgstr "Κανόνες"
+
+#: src/ui/presets_dialog.rs:162
+msgid "Load"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:171
+#, fuzzy
+msgid "Edit {} Rule"
+msgstr "Επεξεργασία κανόνα"
+
+#: src/ui/rule_dialogs.rs:188 src/ui/window.rs:808 src/ui/window.rs:2306
+msgid "Add Rule"
+msgstr "Προσθήκη κανόνα"
+
+#: src/ui/rule_dialogs.rs:305
+msgid "Find"
+msgstr "Εύρεση"
+
+#: src/ui/rule_dialogs.rs:306
+msgid "Replace with"
+msgstr "Αντικατάσταση με"
+
+#: src/ui/rule_dialogs.rs:308 src/ui/rule_dialogs.rs:565
+msgid "Case sensitive"
+msgstr "Διάκριση πεζών/κεφαλαίων"
+
+#: src/ui/rule_dialogs.rs:312
+msgid "Use regular expressions"
+msgstr "Χρήση κανονικών εκφράσεων"
+
+#: src/ui/rule_dialogs.rs:316
+msgid "Replace all occurrences"
+msgstr "Αντικατάσταση όλων των εμφανίσεων"
+
+#: src/ui/rule_dialogs.rs:323 src/ui/rule_dialogs.rs:599
+#: src/ui/rule_dialogs.rs:912 src/ui/rule_dialogs.rs:1178
+msgid "Options"
+msgstr "Επιλογές"
+
+#: src/ui/rule_dialogs.rs:330
+msgid "Enter the text to find."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:334 src/ui/rule_dialogs.rs:620
+#, fuzzy
+msgid "Invalid regular expression: {}"
+msgstr "Χρήση κανονικών εκφράσεων"
+
+#: src/ui/rule_dialogs.rs:386
+msgid "Convert to"
+msgstr "Μετατροπή σε"
+
+#: src/ui/rule_dialogs.rs:403
+msgid "Case Type"
+msgstr "Τύπος πεζών/κεφαλαίων"
+
+#: src/ui/rule_dialogs.rs:442 src/ui/rule_dialogs.rs:1324
+msgid "Insert"
+msgstr "Εισαγωγή"
+
+#: src/ui/rule_dialogs.rs:451
+msgid "Text to insert"
+msgstr "Κείμενο προς εισαγωγή"
+
+#: src/ui/rule_dialogs.rs:459 src/ui/rule_dialogs.rs:683
+#: src/ui/rule_dialogs.rs:824 src/ui/rule_dialogs.rs:1171
+msgid "Insert at"
+msgstr "Εισαγωγή στο"
+
+#: src/ui/rule_dialogs.rs:469
+msgid "Character position"
+msgstr "Θέση χαρακτήρα"
+
+#: src/ui/rule_dialogs.rs:488 src/ui/rule_dialogs.rs:701
+msgid "Position"
+msgstr "Θέση"
+
+#: src/ui/rule_dialogs.rs:498
+#, fuzzy
+msgid "Enter the text to insert."
+msgstr "Κείμενο προς εισαγωγή"
+
+#: src/ui/rule_dialogs.rs:549 src/ui/rule_dialogs.rs:1342
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: src/ui/rule_dialogs.rs:563
+#, fuzzy
+msgid "Text or pattern"
+msgstr "Κείμενο προς εισαγωγή"
+
+#: src/ui/rule_dialogs.rs:569
+msgid "Number of characters"
+msgstr "Αριθμός χαρακτήρων"
+
+#: src/ui/rule_dialogs.rs:573
+#, fuzzy
+msgid "Bracket type"
+msgstr "Περιεχόμενο σε παρενθέσεις"
+
+#: src/ui/rule_dialogs.rs:607
+#, fuzzy
+msgid "Enter the text to remove."
+msgstr "Κείμενο προς αφαίρεση"
+
+#: src/ui/rule_dialogs.rs:617
+msgid "Enter the pattern to remove."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:657
+msgid "Start at"
+msgstr "Έναρξη από"
+
+#: src/ui/rule_dialogs.rs:661
+msgid "Increment by"
+msgstr "Αύξηση κατά"
+
+#: src/ui/rule_dialogs.rs:665
+msgid "Digits (zero-padding)"
+msgstr "Ψηφία (συμπλήρωση με μηδενικά)"
+
+#: src/ui/rule_dialogs.rs:669
+#, fuzzy
+msgid "Number format"
+msgstr "Αριθμός χαρακτήρων"
+
+#: src/ui/rule_dialogs.rs:691
+msgid "Separator"
+msgstr "Διαχωριστικό"
+
+#: src/ui/rule_dialogs.rs:694
+msgid "Restart numbering per folder"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:699 src/ui/rule_dialogs.rs:1351
+msgid "Numbering"
+msgstr "Αρίθμηση"
+
+#: src/ui/rule_dialogs.rs:700 src/ui/rule_dialogs.rs:831
+msgid "Format"
+msgstr "Μορφή"
+
+#: src/ui/rule_dialogs.rs:797
+msgid "Date source"
+msgstr "Προέλευση ημερομηνίας"
+
+#: src/ui/rule_dialogs.rs:806
+#, fuzzy
+msgid "Custom…"
+msgstr "Προσαρμοσμένος κανόνας"
+
+#: src/ui/rule_dialogs.rs:811
+msgid "Date format"
+msgstr "Μορφή ημερομηνίας"
+
+#: src/ui/rule_dialogs.rs:816
+msgid "Custom format (chrono)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:845
+msgid "Enter a chrono date format, e.g. %Y-%m-%d."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:882 src/ui/rule_dialogs.rs:1370
+msgid "Trim"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:893
+#, fuzzy
+msgid "Characters to trim"
+msgstr "Θέση χαρακτήρα"
+
+#: src/ui/rule_dialogs.rs:895
+msgid "Maximum length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:922
+#, fuzzy
+msgid "Enter the characters to trim."
+msgstr "Αφαίρεση χαρακτήρων ή μοτίβων"
+
+#: src/ui/rule_dialogs.rs:945
+msgid "Target length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:948
+#, fuzzy
+msgid "Padding character"
+msgstr "Τελευταίοι %d χαρακτήρες"
+
+#: src/ui/rule_dialogs.rs:950
+msgid "Pad at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:956
+msgid "Padding"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:967
+msgid "Enter a padding character."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:991
+msgid "Collapse repeated spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:995
+#, fuzzy
+msgid "Remove special characters"
+msgstr "Αφαίρεση χαρακτήρων ή μοτίβων"
+
+#: src/ui/rule_dialogs.rs:998
+#, fuzzy
+msgid "Characters to preserve"
+msgstr "Θέση χαρακτήρα"
+
+#: src/ui/rule_dialogs.rs:1000
+msgid "Remove accents and diacritics"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1004
+msgid "Normalize Unicode"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1008
+msgid "Spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1020 src/ui/rule_dialogs.rs:1403
+msgid "Clean Up"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1052
+msgid "Split on"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1059
+msgid "New order (e.g. 2, 1, 3)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1060
+msgid "Join with"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1063
+msgid ""
+"The name is split on the separator; parts are numbered from 1. Parts left "
+"out of the order are dropped."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1074 src/ui/rule_dialogs.rs:1406
+msgid "Rearrange"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1084
+msgid "Enter the separator to split on."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1096
+msgid ""
+"The order must be a comma-separated list of part numbers, starting at 1."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1103
+msgid "Enter at least one part number."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1158
+msgid "Metadata field"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1166
+msgid "Format (optional, for dates)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1169
+msgid "Fallback if missing"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1213 src/ui/rule_dialogs.rs:1445
+msgid "Expression"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1217
+msgid ""
+"Variables: {name}, {ext}, {parent}, {size}, {counter}, {date}.\n"
+"             Functions: ${upper(name)}, ${lower(name)}, ${replace(name, "
+"\"a\", \"b\")},              ${substr(name, 0, 5)}, ${trim(name)}, $"
+"{pad(counter, 3)}."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1230
+msgid "Template"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1236
+msgid "Enter an expression template."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1259 src/ui/rule_dialogs.rs:1455
+#, fuzzy
+msgid "Conversion"
+msgstr "έκδοση"
+
+#: src/ui/rule_dialogs.rs:1271 src/ui/rule_dialogs.rs:1450
+msgid "Transliterate"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1293
+#, fuzzy
+msgid "Remove \"{}\""
+msgstr "Αφαίρεση «%s»"
+
+#: src/ui/rule_dialogs.rs:1300
+msgid "Change Case"
+msgstr "Αλλαγή πεζών/κεφαλαίων"
+
+#: src/ui/rule_dialogs.rs:1305 src/ui/rule_dialogs.rs:1432
+msgid "Date/Time"
+msgstr "Ημερομηνία/Ώρα"
+
+#: src/ui/rule_dialogs.rs:1312
+#, fuzzy
+msgid "Parent folder name"
+msgstr "Όνομα προρύθμισης"
+
+#: src/ui/rule_dialogs.rs:1313
+msgid "Grandparent folder name"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1314
+msgid "Dynamic"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1317
+msgid "at beginning"
+msgstr "στην αρχή"
+
+#: src/ui/rule_dialogs.rs:1318
+msgid "at end"
+msgstr "στο τέλος"
+
+#: src/ui/rule_dialogs.rs:1320
+#, fuzzy
+msgid "at position {}"
+msgstr "στη θέση %d"
+
+#: src/ui/rule_dialogs.rs:1322 src/ui/rule_dialogs.rs:1348
+msgid "custom"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1329
+msgid "Pattern /{}/"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1331
+#, fuzzy
+msgid "First {} chars"
+msgstr "Πρώτοι %d χαρακτήρες"
+
+#: src/ui/rule_dialogs.rs:1334
+#, fuzzy
+msgid "Last {} chars"
+msgstr "Τελευταίοι %d χαρακτήρες"
+
+#: src/ui/rule_dialogs.rs:1336
+msgid "All digits"
+msgstr "Όλα τα ψηφία"
+
+#: src/ui/rule_dialogs.rs:1337
+msgid "All whitespace"
+msgstr "Όλα τα κενά"
+
+#: src/ui/rule_dialogs.rs:1338
+msgid "Leading zeros"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1339
+msgid "Bracketed content"
+msgstr "Περιεχόμενο σε παρενθέσεις"
+
+#: src/ui/rule_dialogs.rs:1340
+#, fuzzy
+msgid "Custom"
+msgstr "Προσαρμοσμένος κανόνας"
+
+#: src/ui/rule_dialogs.rs:1346 src/ui/rule_dialogs.rs:1429
+#: src/ui/rule_dialogs.rs:1476
+msgid "prefix"
+msgstr "πρόθεμα"
+
+#: src/ui/rule_dialogs.rs:1347 src/ui/rule_dialogs.rs:1427
+#: src/ui/rule_dialogs.rs:1475
+msgid "suffix"
+msgstr "επίθεμα"
+
+#: src/ui/rule_dialogs.rs:1352
+#, fuzzy
+msgid "Start: {}, Pad: {} digits, {}"
+msgstr "Αρχή: %d, Συμπλήρωση: %d ψηφία, %s"
+
+#: src/ui/rule_dialogs.rs:1361
+msgid "Whitespace from both ends"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1362
+msgid "Whitespace from the start"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1363
+msgid "Whitespace from the end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1364
+#, fuzzy
+msgid "Characters: {}"
+msgstr "Θέση χαρακτήρα"
+
+#: src/ui/rule_dialogs.rs:1367
+msgid "Max length {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1373
+msgid "Pad"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1374
+msgid "To {} chars with '{}' at {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "start"
+msgstr "Έναρξη από"
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "end"
+msgstr "στο τέλος"
+
+#: src/ui/rule_dialogs.rs:1387
+msgid "collapse spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1390
+msgid "strip special chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1393
+msgid "strip accents"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1396
+#, fuzzy
+msgid "replace spaces"
+msgstr "Αντικατάσταση κειμένου"
+
+#: src/ui/rule_dialogs.rs:1399
+msgid "Normalize"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1407
+msgid "Split on \"{}\", order {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1425 src/ui/rule_dialogs.rs:1472
+#, fuzzy
+msgid "Date"
+msgstr "Ημερομηνία/Ώρα"
+
+#: src/ui/rule_dialogs.rs:1433 src/ui/rule_dialogs.rs:1478
+msgid "{} as {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1440
+msgid "Metadata"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1466
+msgid "Modified date"
+msgstr "Ημερομηνία τροποποίησης"
+
+#: src/ui/rule_dialogs.rs:1467
+msgid "Created date"
+msgstr "Ημερομηνία δημιουργίας"
+
+#: src/ui/rule_dialogs.rs:1468
+msgid "Current date"
+msgstr "Τρέχουσα ημερομηνία"
+
+#: src/ui/rule_dialogs.rs:1469
+#, fuzzy
+msgid "EXIF date"
+msgstr "Ημερομηνία λήψης EXIF"
+
+#: src/ui/rule_dialogs.rs:1470
+#, fuzzy
+msgid "Accessed date"
+msgstr "Ημερομηνία δημιουργίας"
+
+#: src/ui/window.rs:244
+msgid "Interrupted Rename Detected"
+msgstr ""
+
+#: src/ui/window.rs:247
+msgid ""
+"A previous rename was interrupted and left {} file(s) under temporary "
+"names.                      Restore them to their original names now?"
+msgstr ""
+
+#: src/ui/window.rs:254
+msgid "Later"
+msgstr ""
+
+#: src/ui/window.rs:255
+msgid "Restore"
+msgstr ""
+
+#: src/ui/window.rs:266
+msgid "Restored {} file(s)."
+msgstr ""
+
+#: src/ui/window.rs:274 src/ui/window.rs:2243
+msgid "…and {} more."
+msgstr ""
+
+#: src/ui/window.rs:279
+#, fuzzy
+msgid "Recovery Complete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/window.rs:281
+#, fuzzy
+msgid "Recovery Incomplete"
+msgstr "Η μετονομασία ολοκληρώθηκε"
+
+#: src/ui/window.rs:317
+msgid "Wait until the current operation finishes"
+msgstr "Περιμένετε να ολοκληρωθεί η τρέχουσα εργασία"
+
+#: src/ui/window.rs:350
+msgid "Menu"
+msgstr "Μενού"
+
+#: src/ui/window.rs:376
+msgid "A powerful bulk file renaming application for Linux"
+msgstr "Μια ισχυρή εφαρμογή μαζικής μετονομασίας αρχείων για Linux"
+
+#: src/ui/window.rs:379
+msgid "Created by"
+msgstr "Δημιουργήθηκε από"
+
+#: src/ui/window.rs:440
+msgid "Add Files"
+msgstr "Προσθήκη αρχείων"
+
+#: src/ui/window.rs:447
+msgid "Add Folder"
+msgstr "Προσθήκη φακέλου"
+
+#: src/ui/window.rs:454
+msgid "Clear All"
+msgstr "Εκκαθάριση όλων"
+
+#: src/ui/window.rs:478
+#, fuzzy
+msgid "Sort Files"
+msgstr "Κανένα αρχείο"
+
+#: src/ui/window.rs:501 src/ui/window.rs:1642
+#, fuzzy
+msgid "{} files"
+msgstr "%d αρχεία"
+
+#: src/ui/window.rs:506 src/ui/window.rs:1658
+#, fuzzy
+msgid "{} selected"
+msgstr "%d επιλεγμένα"
+
+#: src/ui/window.rs:528
+msgid "Filter by name (use * and ? for globs)"
+msgstr ""
+
+#: src/ui/window.rs:541
+msgid "Extensions: jpg, png"
+msgstr ""
+
+#: src/ui/window.rs:543
+msgid "Only rename files with these extensions (comma-separated)"
+msgstr ""
+
+#: src/ui/window.rs:579
+#, fuzzy
+msgid "Include in the rename"
+msgstr "%d θα μετονομαστούν"
+
+#: src/ui/window.rs:644
+msgid "No Files"
+msgstr "Κανένα αρχείο"
+
+#: src/ui/window.rs:645
+msgid "Drop files here or click + to add"
+msgstr "Σύρετε αρχεία εδώ ή πατήστε + για προσθήκη"
+
+#: src/ui/window.rs:687
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+#: src/ui/window.rs:693
+msgid "Remove Selected"
+msgstr "Αφαίρεση επιλεγμένων"
+
+#: src/ui/window.rs:800
+msgid "Rules"
+msgstr "Κανόνες"
+
+#: src/ui/window.rs:815
+#, fuzzy
+msgid "Clear All Rules"
+msgstr "Εκκαθάριση όλων"
+
+#: src/ui/window.rs:839
+msgid "Apply to"
+msgstr "Εφαρμογή σε"
+
+#: src/ui/window.rs:841
+msgid "Files only"
+msgstr "Μόνο αρχεία"
+
+#: src/ui/window.rs:842
+msgid "Folders only"
+msgstr "Μόνο φακέλους"
+
+#: src/ui/window.rs:843
+msgid "Both"
+msgstr "Και τα δύο"
+
+#: src/ui/window.rs:869
+#, fuzzy
+msgid ""
+"No rules added\n"
+"Click + to add a rule"
+msgstr "Πατήστε + για να προσθέσετε κανόνα"
+
+#: src/ui/window.rs:889
+msgid "Process extension separately"
+msgstr "Επεξεργασία επέκτασης χωριστά"
+
+#: src/ui/window.rs:950
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: src/ui/window.rs:958
+msgid "Refresh Preview"
+msgstr "Ανανέωση προεπισκόπησης"
+
+#: src/ui/window.rs:977
+#, fuzzy
+msgid "0 will be renamed"
+msgstr "%d θα μετονομαστούν"
+
+#: src/ui/window.rs:988
+#, fuzzy
+msgid "Add Numbers"
+msgstr "Προσθήκη αρίθμησης"
+
+#: src/ui/window.rs:995
+msgid "Collisions are renamed with (n) suffixes"
+msgstr ""
+
+#: src/ui/window.rs:1034
+msgid "Original"
+msgstr "Αρχικό"
+
+#: src/ui/window.rs:1034
+msgid "New Name"
+msgstr "Νέο όνομα"
+
+#: src/ui/window.rs:1118
+msgid "No files to preview"
+msgstr "Δεν υπάρχουν αρχεία για προεπισκόπηση"
+
+#: src/ui/window.rs:1443
+msgid "Select Files"
+msgstr "Επιλογή αρχείων"
+
+#: src/ui/window.rs:1466
+msgid "Select Folder"
+msgstr "Επιλογή φακέλου"
+
+#: src/ui/window.rs:1672
+msgid "{} file — {}"
+msgstr ""
+
+#: src/ui/window.rs:1674
+msgid "{} files — {}"
+msgstr ""
+
+#: src/ui/window.rs:1875
+msgid "Excluded from this batch"
+msgstr ""
+
+#: src/ui/window.rs:1885
+msgid "Filtered out"
+msgstr ""
+
+#: src/ui/window.rs:1899
+msgid "Manually renamed"
+msgstr ""
+
+#: src/ui/window.rs:1944
+msgid "{} rename, {} unchanged, {} conflicts, {} errors"
+msgstr ""
+
+#: src/ui/window.rs:1959
+msgid "{} name collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:1961
+msgid "{} names collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:2015
+msgid "Nothing to Rename"
+msgstr "Τίποτα προς μετονομασία"
+
+#: src/ui/window.rs:2016
+msgid "No files will be renamed with the current rules."
+msgstr "Κανένα αρχείο δεν θα μετονομαστεί με τους τρέχοντες κανόνες."
+
+#: src/ui/window.rs:2023
+msgid "Resolve the conflicts and errors shown in the preview first."
+msgstr ""
+
+#: src/ui/window.rs:2040
+msgid "Confirm Rename"
+msgstr "Επιβεβαίωση μετονομασίας"
+
+#: src/ui/window.rs:2042
+#, fuzzy
+msgid "Rename {} files?"
+msgstr "Μετονομασία %d αρχείων;"
+
+#: src/ui/window.rs:2092
+#, fuzzy
+msgid "Renamed {} files"
+msgstr "Μετονομασία %d αρχείων;"
+
+#: src/ui/window.rs:2108
+#, fuzzy
+msgid "Renamed {} files successfully, {} failed."
+msgstr "%d αρχεία μετονομάστηκαν επιτυχώς, %d απέτυχαν."
+
+#: src/ui/window.rs:2112
+msgid "Rename Completed with Errors"
+msgstr "Η μετονομασία ολοκληρώθηκε με σφάλματα"
+
+#: src/ui/window.rs:2213
+msgid "OK"
+msgstr "Εντάξει"
+
+#: src/ui/window.rs:2307
+msgid "Select the type of rule to add:"
+msgstr "Επιλέξτε τον τύπο κανόνα για προσθήκη:"
+
+#: src/ui/window.rs:2522
+msgid "Drag to reorder"
+msgstr "Σύρετε για αναδιάταξη"
+
+#: src/ui/window.rs:2562
+msgid "Enable this rule"
+msgstr ""
+
+#: src/ui/window.rs:2571
+msgid "Edit rule"
+msgstr "Επεξεργασία κανόνα"
+
+#: src/ui/window.rs:2578
+msgid "Remove rule"
+msgstr "Αφαίρεση κανόνα"
+
+#: src/ui/window.rs:2764
+#, fuzzy
+msgid "Loaded preset '{}'"
+msgstr "Φόρτωση προρύθμισης…"
+
+#: src/ui/window.rs:2820
+msgid "Click to type a name for this file; clear it to follow the rules again"
+msgstr ""
+
+#~ msgid "System"
+#~ msgstr "Σύστημα"
+
+#~ msgid "Light"
+#~ msgstr "Φωτεινό"
+
+#~ msgid "Dark"
+#~ msgstr "Σκοτεινό"
+
+#~ msgid "Choose an action:"
+#~ msgstr "Επιλέξτε μια ενέργεια:"
+
+#~ msgid "No rules added"
+#~ msgstr "Δεν έχουν προστεθεί κανόνες"
+
+#, c-format
+#~ msgid "Successfully renamed %d files."
+#~ msgstr "Μετονομάστηκαν επιτυχώς %d αρχεία."
+
+#~ msgid "Find and replace text"
+#~ msgstr "Εύρεση και αντικατάσταση κειμένου"
+
+#~ msgid "UPPER, lower, Title Case"
+#~ msgstr "ΚΕΦΑΛΑΙΑ, πεζά, Πεζοκεφαλαία"
+
+#~ msgid "Insert Text"
+#~ msgstr "Εισαγωγή κειμένου"
+
+#~ msgid "Add text at position"
+#~ msgstr "Προσθήκη κειμένου σε θέση"
+
+#~ msgid "Remove Text"
+#~ msgstr "Αφαίρεση κειμένου"
+
+#~ msgid "Add sequential numbers"
+#~ msgstr "Προσθήκη διαδοχικών αριθμών"
+
+#~ msgid "Insert date information"
+#~ msgstr "Εισαγωγή πληροφοριών ημερομηνίας"
+
+#, c-format
+#~ msgid "\"%s\" → \"%s\""
+#~ msgstr "«%s» → «%s»"
+
+#~ msgid "lowercase"
+#~ msgstr "πεζά"
+
+#~ msgid "UPPERCASE"
+#~ msgstr "ΚΕΦΑΛΑΙΑ"
+
+#~ msgid "Title Case"
+#~ msgstr "Πεζοκεφαλαία"
+
+#~ msgid "Sentence case"
+#~ msgstr "Κεφαλαίο αρχής"
+
+#~ msgid "snake_case"
+#~ msgstr "snake_case"
+
+#~ msgid "kebab-case"
+#~ msgstr "kebab-case"
+
+#~ msgid "All letters become lowercase"
+#~ msgstr "Όλα τα γράμματα γίνονται πεζά"
+
+#~ msgid "All letters become uppercase"
+#~ msgstr "Όλα τα γράμματα γίνονται κεφαλαία"
+
+#~ msgid "First letter of each word uppercase"
+#~ msgstr "Πρώτο γράμμα κάθε λέξης κεφαλαίο"
+
+#~ msgid "First letter uppercase, rest lowercase"
+#~ msgstr "Πρώτο γράμμα κεφαλαίο, υπόλοιπα πεζά"
+
+#~ msgid "Words joined with underscores"
+#~ msgstr "Λέξεις ενωμένες με κάτω παύλες"
+
+#~ msgid "Words joined with hyphens"
+#~ msgstr "Λέξεις ενωμένες με παύλες"
+
+#~ msgid "Edit Replace Rule"
+#~ msgstr "Επεξεργασία κανόνα αντικατάστασης"
+
+#~ msgid "Beginning (prefix)"
+#~ msgstr "Αρχή (πρόθεμα)"
+
+#~ msgid "End (suffix)"
+#~ msgstr "Τέλος (επίθεμα)"
+
+#~ msgid "At position"
+#~ msgstr "Στη θέση"
+
+#~ msgid "Edit Insert Rule"
+#~ msgstr "Επεξεργασία κανόνα εισαγωγής"
+
+#~ msgid "Specific text"
+#~ msgstr "Συγκεκριμένο κείμενο"
+
+#~ msgid "First N characters"
+#~ msgstr "Πρώτοι N χαρακτήρες"
+
+#~ msgid "Last N characters"
+#~ msgstr "Τελευταίοι N χαρακτήρες"
+
+#~ msgid "Bracketed content (…)"
+#~ msgstr "Περιεχόμενο σε παρενθέσεις (…)"
+
+#, c-format
+#~ msgid "First %d characters"
+#~ msgstr "Πρώτοι %d χαρακτήρες"
+
+#~ msgid "Edit Remove Rule"
+#~ msgstr "Επεξεργασία κανόνα αφαίρεσης"
+
+#~ msgid "Edit Numbering Rule"
+#~ msgstr "Επεξεργασία κανόνα αρίθμησης"
+
+#~ msgid "File modified date"
+#~ msgstr "Ημερομηνία τροποποίησης αρχείου"
+
+#~ msgid "File created date"
+#~ msgstr "Ημερομηνία δημιουργίας αρχείου"
+
+#~ msgid "Edit Change Case Rule"
+#~ msgstr "Επεξεργασία κανόνα πεζών/κεφαλαίων"
+
+#~ msgid "Confirm"
+#~ msgstr "Επιβεβαίωση"
+
+#~ msgid "Select Preset"
+#~ msgstr "Επιλογή προρύθμισης"
+
+#~ msgid "Apply"
+#~ msgstr "Εφαρμογή"

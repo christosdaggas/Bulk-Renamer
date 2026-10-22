@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.chrisdaggas.bulk-renamer</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Bulk Renamer</name>
+  <summary>Powerful batch file renaming</summary>
+  <description>
+    <p>
+      Bulk Renamer renames many files at once. Combine simple rules, check
+      every new name in a live preview before anything changes, and undo whole
+      batches later if you change your mind.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Find and replace text, optionally with regular expressions</li>
+      <li>Change case, insert or remove text, trim and pad names</li>
+      <li>Add sequential numbers and dates</li>
+      <li>Use photo (EXIF) and music (ID3) details in file names</li>
+      <li>Tidy up messy names and transliterate Greek or Cyrillic to Latin</li>
+      <li>Live preview with conflict detection before renaming</li>
+      <li>Undo, redo and a history of past renames</li>
+      <li>Presets, CSV import and a command-line mode</li>
+    </ul>
+  </description>
+  <launchable type="desktop-id">com.chrisdaggas.bulk-renamer.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/christosdaggas/Bulk-Renamer/main/docs/app.png</image>
+      <caption>Main window with files, renaming rules and the preview</caption>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://chrisdaggas.com</url>
+  <url type="bugtracker">https://github.com/christosdaggas/Bulk-Renamer/issues</url>
+  <url type="vcs-browser">https://github.com/christosdaggas/Bulk-Renamer</url>
+  <developer id="com.chrisdaggas">
+    <name>Christos A. Daggas</name>
+  </developer>
+  <branding>
+    <color type="primary" scheme_preference="light">#62a0ea</color>
+    <color type="primary" scheme_preference="dark">#1a5fb4</color>
+  </branding>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="1.0.0" date="2026-10-22">
+      <description>
+        <p>First release, made for Fedora with the GNOME desktop: rule-based renaming with a live preview, undo and a rename history, crash recovery, presets, CSV import and a command-line mode, with partial translations into 10 languages.</p>
+      </description>
+    </release>
+  </releases>
+  <categories>
+    <category>Utility</category>
+    <category>FileTools</category>
+  </categories>
+  <keywords>
+    <keyword>rename</keyword>
+    <keyword>files</keyword>
+    <keyword>bulk</keyword>
+    <keyword>batch</keyword>
+  </keywords>
+  <translation type="gettext">bulk-renamer</translation>
+</component>

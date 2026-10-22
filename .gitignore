@@ -1,0 +1,49 @@
+# Build artifacts
+/target/
+/dist/
+
+# Cargo lock file (optional - remove this line if you want to track it)
+# Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Rust specific
+**/*.rs.bk
+*.pdb
+
+# Generated resources
+*.gresource
+
+# Local configuration
+.env
+.env.local
+*.local
+.claude/settings.local.json
+
+# Debug files
+*.log
+/core
+vgcore.*
+
+# Package manager directories
+node_modules/
+
+# Backup files
+*.bak
+*.backup
+*.orig

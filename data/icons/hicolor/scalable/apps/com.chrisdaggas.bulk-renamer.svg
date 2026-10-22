@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="com.chrisdaggas.bulk-renamer.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.98"
+     inkscape:cx="400"
+     inkscape:cy="400"
+     inkscape:window-width="1920"
+     inkscape:window-height="995"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="SVGRepo_iconCarrier" />
+  <g
+     id="SVGRepo_bgCarrier"
+     stroke-width="0" />
+  <g
+     id="SVGRepo_tracerCarrier"
+     stroke-linecap="round"
+     stroke-linejoin="round" />
+  <g
+     id="SVGRepo_iconCarrier">
+    <path
+       opacity="0.4"
+       d="M16 12.6899V18.0799C16 20.4199 14.44 21.9699 12.11 21.9699H5.89C3.56 21.9699 2 20.4199 2 18.0799V10.3099C2 7.96992 3.56 6.41992 5.89 6.41992H9.72C10.75 6.41992 11.74 6.82992 12.47 7.55992L14.86 9.93992C15.59 10.6699 16 11.6599 16 12.6899Z"
+       fill="#a51d2d"
+       id="path1"
+       style="fill:#aa0000;fill-opacity:1" />
+    <path
+       d="M22 8.24997V13.64C22 15.97 20.44 17.53 18.11 17.53H16V12.69C16 11.66 15.59 10.67 14.86 9.93997L12.47 7.55997C11.74 6.82997 10.75 6.41997 9.72 6.41997H8V5.85997C8 3.52997 9.56 1.96997 11.89 1.96997H15.72C16.75 1.96997 17.74 2.37997 18.47 3.10997L20.86 5.49997C21.59 6.22997 22 7.21997 22 8.24997Z"
+       fill="#a51d2d"
+       id="path2" />
+    <text
+       xml:space="preserve"
+       style="font-size:0.36px;writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:5.57506;fill:#ffffff;fill-opacity:1;stroke-width:0.03"
+       x="10.867347"
+       y="8.8775511"
+       id="text2"
+       transform="matrix(15.160034,0,0,18.499516,-149.77771,-154.60581)"><tspan
+         x="10.867347"
+         y="8.8775511"
+         id="tspan4"><tspan
+           style="font-family:'Arial Black';-inkscape-font-specification:'Arial Black, '"
+           id="tspan1">B</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:0.36px;writing-mode:lr-tb;direction:ltr;white-space:pre;inline-size:5.57506;display:inline;fill:#ffffff;fill-opacity:1;stroke-width:0.03"
+       x="10.867347"
+       y="8.8775511"
+       id="text2-7"
+       transform="matrix(15.160034,0,0,18.499516,-156.26319,-150.2403)"><tspan
+         x="10.867347"
+         y="8.8775511"
+         id="tspan6"><tspan
+           style="font-family:'Arial Black';-inkscape-font-specification:'Arial Black, '"
+           id="tspan5">A</tspan></tspan></text>
+  </g>
+</svg>

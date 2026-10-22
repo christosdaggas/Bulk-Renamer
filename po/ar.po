@@ -1,0 +1,1304 @@
+# Arabic translation for bulk-renamer.
+# Copyright (C) 2024-2026 Christos A. Daggas
+# This file is distributed under the same license as the bulk-renamer package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bulk-renamer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Bulk-Renamer/issues\n"
+"POT-Creation-Date: 2026-10-22 13:03+0300\n"
+"PO-Revision-Date: 2026-01-07 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
+
+#: src/ui/csv_io.rs:17
+msgid "Import from CSV"
+msgstr "استيراد من CSV"
+
+#: src/ui/csv_io.rs:42
+msgid "Export Log"
+msgstr "تصدير السجل"
+
+#: src/ui/csv_io.rs:58
+msgid "Rename log exported to CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:60 src/ui/csv_io.rs:185 src/ui/csv_io.rs:257
+#, fuzzy
+msgid "Export Failed"
+msgstr "تصدير السجل"
+
+#: src/ui/csv_io.rs:75
+#, fuzzy
+msgid "Import CSV Renames"
+msgstr "استيراد من CSV"
+
+#: src/ui/csv_io.rs:77
+msgid "Apply {} renames from the CSV file?"
+msgstr ""
+
+#: src/ui/csv_io.rs:82 src/ui/dialogs.rs:52 src/ui/execution.rs:52
+#: src/ui/preferences_dialog.rs:22 src/ui/presets_dialog.rs:24
+#: src/ui/presets_dialog.rs:74 src/ui/presets_dialog.rs:161
+#: src/ui/rule_dialogs.rs:185 src/ui/window.rs:2048 src/ui/window.rs:2332
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: src/ui/csv_io.rs:83 src/ui/window.rs:334 src/ui/window.rs:2049
+msgid "Rename"
+msgstr "إعادة تسمية"
+
+#: src/ui/csv_io.rs:100
+msgid "CSV Import Failed"
+msgstr ""
+
+#: src/ui/csv_io.rs:113
+msgid "CSV must include an original_path column"
+msgstr ""
+
+#: src/ui/csv_io.rs:119
+msgid "CSV must include a new_name column"
+msgstr ""
+
+#: src/ui/csv_io.rs:159
+#, fuzzy
+msgid "Nothing to Export"
+msgstr "لا شيء لإعادة تسميته"
+
+#: src/ui/csv_io.rs:160
+#, fuzzy
+msgid "Add files to build a preview first."
+msgstr "أضف ملفات وقواعد لرؤية المعاينة"
+
+#: src/ui/csv_io.rs:166
+msgid "Export Preview as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:183
+msgid "Preview exported as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:219
+msgid "No Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:220 src/ui/history_dialog.rs:14
+msgid "No renames have been recorded yet."
+msgstr ""
+
+#: src/ui/csv_io.rs:226
+msgid "Export Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:255
+msgid "Undo script exported"
+msgstr ""
+
+#: src/ui/dialogs.rs:14 src/ui/window.rs:81 src/ui/window.rs:329
+#: src/ui/window.rs:368
+msgid "Bulk Renamer"
+msgstr "مُعيد التسمية المجمّع"
+
+#: src/ui/dialogs.rs:46
+msgid "Processing..."
+msgstr "جارٍ المعالجة..."
+
+#: src/ui/execution.rs:84
+#, fuzzy
+msgid "Renaming Files…"
+msgstr "فشلت إعادة التسمية"
+
+#: src/ui/execution.rs:85
+msgid "Preparing…"
+msgstr ""
+
+#: src/ui/execution.rs:93
+#, fuzzy
+msgid "Cancelling…"
+msgstr "إلغاء"
+
+#: src/ui/execution.rs:126
+msgid "{} of {} steps"
+msgstr ""
+
+#: src/ui/execution.rs:145
+msgid "Rename cancelled — no files were changed"
+msgstr ""
+
+#: src/ui/execution.rs:149 src/ui/window.rs:2022
+#, fuzzy
+msgid "Rename Blocked"
+msgstr "فشلت إعادة التسمية"
+
+#: src/ui/execution.rs:173
+#, fuzzy
+msgid "Undoing Rename…"
+msgstr "لا شيء لإعادة تسميته"
+
+#: src/ui/execution.rs:174
+#, fuzzy
+msgid "Redoing Rename…"
+msgstr "لا شيء لإعادة تسميته"
+
+#: src/ui/execution.rs:178
+msgid "Working…"
+msgstr ""
+
+#: src/ui/execution.rs:225
+#, fuzzy
+msgid "Undo Complete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/execution.rs:226
+#, fuzzy
+msgid "Undo Incomplete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/execution.rs:227
+msgid "Undo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:231
+#, fuzzy
+msgid "Redo Complete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/execution.rs:232
+#, fuzzy
+msgid "Redo Incomplete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/execution.rs:233
+msgid "Redo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:239
+#, fuzzy
+msgid "Restored {} of {} renamed files."
+msgstr "فشل في إعادة تسمية %d ملف."
+
+#: src/ui/execution.rs:241
+msgid "Renamed {} of {} files again."
+msgstr ""
+
+#: src/ui/history_dialog.rs:13
+msgid "No History"
+msgstr ""
+
+#: src/ui/history_dialog.rs:20
+#, fuzzy
+msgid "Rename History"
+msgstr "إعادة تسمية %d ملف؟"
+
+#: src/ui/history_dialog.rs:46 src/ui/window.rs:2192
+msgid "Undo"
+msgstr ""
+
+#: src/ui/menu.rs:27
+msgid "Save Preset…"
+msgstr "حفظ الإعداد المسبق…"
+
+#: src/ui/menu.rs:28
+msgid "Load Preset…"
+msgstr "تحميل الإعداد المسبق…"
+
+#: src/ui/menu.rs:32
+msgid "Import from CSV…"
+msgstr "استيراد من CSV…"
+
+#: src/ui/menu.rs:33
+#, fuzzy
+msgid "Export Preview as CSV…"
+msgstr "استيراد من CSV…"
+
+#: src/ui/menu.rs:34
+msgid "Export Log…"
+msgstr "تصدير السجل…"
+
+#: src/ui/menu.rs:35
+#, fuzzy
+msgid "Export Undo Script…"
+msgstr "تصدير السجل…"
+
+#: src/ui/menu.rs:39
+#, fuzzy
+msgid "Undo Last Rename"
+msgstr "لا شيء لإعادة تسميته"
+
+#: src/ui/menu.rs:40
+#, fuzzy
+msgid "Redo Rename"
+msgstr "إعادة تسمية"
+
+#: src/ui/menu.rs:41
+msgid "Rename History…"
+msgstr ""
+
+#: src/ui/menu.rs:45 src/ui/preferences_dialog.rs:13
+msgid "Preferences"
+msgstr ""
+
+#: src/ui/menu.rs:46
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ui/menu.rs:47
+msgid "About Bulk Renamer"
+msgstr "حول مُعيد التسمية المجمّع"
+
+#: src/ui/preferences_dialog.rs:24 src/ui/presets_dialog.rs:25
+#: src/ui/rule_dialogs.rs:188
+msgid "Save"
+msgstr "حفظ"
+
+#: src/ui/preferences_dialog.rs:32
+msgid "Behavior"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:34
+#, fuzzy
+msgid "Confirm Before Rename"
+msgstr "تأكيد إعادة التسمية"
+
+#: src/ui/preferences_dialog.rs:38
+#, fuzzy
+msgid "Live Preview"
+msgstr "معاينة"
+
+#: src/ui/preferences_dialog.rs:39
+msgid "Recompute the preview automatically after every change"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:43
+msgid "Show Unchanged Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:51 src/ui/window.rs:432
+msgid "Files"
+msgstr "الملفات"
+
+#: src/ui/preferences_dialog.rs:53
+msgid "Include Hidden Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:57
+msgid "Follow Symlinks"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:61
+msgid "Load Metadata"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:65
+msgid "Folder Scan Depth"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:82
+msgid "History and Logs"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:85
+msgid "Persist Undo History"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:86
+msgid "Undo always works during a session; this keeps it across restarts"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:90
+msgid "Log Rename Operations"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:15
+msgid "Save Preset"
+msgstr "حفظ الإعداد المسبق"
+
+#: src/ui/presets_dialog.rs:16
+msgid "Enter a name for this preset:"
+msgstr "أدخل اسماً لهذا الإعداد المسبق:"
+
+#: src/ui/presets_dialog.rs:20
+msgid "Preset name"
+msgstr "اسم الإعداد المسبق"
+
+#: src/ui/presets_dialog.rs:39 src/ui/presets_dialog.rs:97
+#: src/ui/presets_dialog.rs:113
+#, fuzzy
+msgid "Preset Not Saved"
+msgstr "اسم الإعداد المسبق"
+
+#: src/ui/presets_dialog.rs:40
+msgid "Preset name cannot be empty."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:68
+msgid "Replace preset “{}”?"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:72
+msgid "A preset with this name already exists. Its rules will be replaced."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:75 src/ui/rule_dialogs.rs:1297
+msgid "Replace"
+msgstr "استبدال"
+
+#: src/ui/presets_dialog.rs:95 src/ui/presets_dialog.rs:112
+#, fuzzy
+msgid "Preset saved"
+msgstr "اسم الإعداد المسبق"
+
+#: src/ui/presets_dialog.rs:123
+#, fuzzy
+msgid "No Presets"
+msgstr "الإعدادات المسبقة"
+
+#: src/ui/presets_dialog.rs:124
+msgid "There are no presets to load yet."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:131
+#, fuzzy
+msgid "Load Preset"
+msgstr "تحميل الإعداد المسبق…"
+
+#: src/ui/presets_dialog.rs:132
+#, fuzzy
+msgid "Choose a preset to apply."
+msgstr "اختر إعداداً مسبقاً للتطبيق:"
+
+#: src/ui/presets_dialog.rs:148
+#, fuzzy
+msgid "{} rules"
+msgstr "القواعد"
+
+#: src/ui/presets_dialog.rs:162
+msgid "Load"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:171
+#, fuzzy
+msgid "Edit {} Rule"
+msgstr "تحرير القاعدة"
+
+#: src/ui/rule_dialogs.rs:188 src/ui/window.rs:808 src/ui/window.rs:2306
+msgid "Add Rule"
+msgstr "إضافة قاعدة"
+
+#: src/ui/rule_dialogs.rs:305
+msgid "Find"
+msgstr "بحث"
+
+#: src/ui/rule_dialogs.rs:306
+msgid "Replace with"
+msgstr "استبدال بـ"
+
+#: src/ui/rule_dialogs.rs:308 src/ui/rule_dialogs.rs:565
+msgid "Case sensitive"
+msgstr "حساس لحالة الأحرف"
+
+#: src/ui/rule_dialogs.rs:312
+msgid "Use regular expressions"
+msgstr "استخدام التعبيرات النمطية"
+
+#: src/ui/rule_dialogs.rs:316
+msgid "Replace all occurrences"
+msgstr "استبدال جميع التكرارات"
+
+#: src/ui/rule_dialogs.rs:323 src/ui/rule_dialogs.rs:599
+#: src/ui/rule_dialogs.rs:912 src/ui/rule_dialogs.rs:1178
+msgid "Options"
+msgstr "الخيارات"
+
+#: src/ui/rule_dialogs.rs:330
+msgid "Enter the text to find."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:334 src/ui/rule_dialogs.rs:620
+#, fuzzy
+msgid "Invalid regular expression: {}"
+msgstr "استخدام التعبيرات النمطية"
+
+#: src/ui/rule_dialogs.rs:386
+msgid "Convert to"
+msgstr "تحويل إلى"
+
+#: src/ui/rule_dialogs.rs:403
+msgid "Case Type"
+msgstr "نوع الحالة"
+
+#: src/ui/rule_dialogs.rs:442 src/ui/rule_dialogs.rs:1324
+msgid "Insert"
+msgstr "إدراج"
+
+#: src/ui/rule_dialogs.rs:451
+msgid "Text to insert"
+msgstr "النص للإدراج"
+
+#: src/ui/rule_dialogs.rs:459 src/ui/rule_dialogs.rs:683
+#: src/ui/rule_dialogs.rs:824 src/ui/rule_dialogs.rs:1171
+msgid "Insert at"
+msgstr "إدراج في"
+
+#: src/ui/rule_dialogs.rs:469
+msgid "Character position"
+msgstr "موضع الحرف"
+
+#: src/ui/rule_dialogs.rs:488 src/ui/rule_dialogs.rs:701
+msgid "Position"
+msgstr "الموضع"
+
+#: src/ui/rule_dialogs.rs:498
+#, fuzzy
+msgid "Enter the text to insert."
+msgstr "النص للإدراج"
+
+#: src/ui/rule_dialogs.rs:549 src/ui/rule_dialogs.rs:1342
+msgid "Remove"
+msgstr "إزالة"
+
+#: src/ui/rule_dialogs.rs:563
+#, fuzzy
+msgid "Text or pattern"
+msgstr "النص للإدراج"
+
+#: src/ui/rule_dialogs.rs:569
+msgid "Number of characters"
+msgstr "عدد الأحرف"
+
+#: src/ui/rule_dialogs.rs:573
+#, fuzzy
+msgid "Bracket type"
+msgstr "المحتوى بين الأقواس"
+
+#: src/ui/rule_dialogs.rs:607
+#, fuzzy
+msgid "Enter the text to remove."
+msgstr "النص للإزالة"
+
+#: src/ui/rule_dialogs.rs:617
+msgid "Enter the pattern to remove."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:657
+msgid "Start at"
+msgstr "البدء من"
+
+#: src/ui/rule_dialogs.rs:661
+msgid "Increment by"
+msgstr "الزيادة بـ"
+
+#: src/ui/rule_dialogs.rs:665
+msgid "Digits (zero-padding)"
+msgstr "الأرقام (حشو الصفر)"
+
+#: src/ui/rule_dialogs.rs:669
+#, fuzzy
+msgid "Number format"
+msgstr "عدد الأحرف"
+
+#: src/ui/rule_dialogs.rs:691
+msgid "Separator"
+msgstr "الفاصل"
+
+#: src/ui/rule_dialogs.rs:694
+msgid "Restart numbering per folder"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:699 src/ui/rule_dialogs.rs:1351
+msgid "Numbering"
+msgstr "الترقيم"
+
+#: src/ui/rule_dialogs.rs:700 src/ui/rule_dialogs.rs:831
+msgid "Format"
+msgstr "التنسيق"
+
+#: src/ui/rule_dialogs.rs:797
+msgid "Date source"
+msgstr "مصدر التاريخ"
+
+#: src/ui/rule_dialogs.rs:806
+#, fuzzy
+msgid "Custom…"
+msgstr "قاعدة مخصصة"
+
+#: src/ui/rule_dialogs.rs:811
+msgid "Date format"
+msgstr "تنسيق التاريخ"
+
+#: src/ui/rule_dialogs.rs:816
+msgid "Custom format (chrono)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:845
+msgid "Enter a chrono date format, e.g. %Y-%m-%d."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:882 src/ui/rule_dialogs.rs:1370
+msgid "Trim"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:893
+#, fuzzy
+msgid "Characters to trim"
+msgstr "موضع الحرف"
+
+#: src/ui/rule_dialogs.rs:895
+msgid "Maximum length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:922
+#, fuzzy
+msgid "Enter the characters to trim."
+msgstr "إزالة الأحرف أو الأنماط"
+
+#: src/ui/rule_dialogs.rs:945
+msgid "Target length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:948
+#, fuzzy
+msgid "Padding character"
+msgstr "آخر %d حرف"
+
+#: src/ui/rule_dialogs.rs:950
+msgid "Pad at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:956
+msgid "Padding"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:967
+msgid "Enter a padding character."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:991
+msgid "Collapse repeated spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:995
+#, fuzzy
+msgid "Remove special characters"
+msgstr "إزالة الأحرف أو الأنماط"
+
+#: src/ui/rule_dialogs.rs:998
+#, fuzzy
+msgid "Characters to preserve"
+msgstr "موضع الحرف"
+
+#: src/ui/rule_dialogs.rs:1000
+msgid "Remove accents and diacritics"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1004
+msgid "Normalize Unicode"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1008
+msgid "Spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1020 src/ui/rule_dialogs.rs:1403
+msgid "Clean Up"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1052
+msgid "Split on"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1059
+msgid "New order (e.g. 2, 1, 3)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1060
+msgid "Join with"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1063
+msgid ""
+"The name is split on the separator; parts are numbered from 1. Parts left "
+"out of the order are dropped."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1074 src/ui/rule_dialogs.rs:1406
+msgid "Rearrange"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1084
+msgid "Enter the separator to split on."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1096
+msgid ""
+"The order must be a comma-separated list of part numbers, starting at 1."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1103
+msgid "Enter at least one part number."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1158
+msgid "Metadata field"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1166
+msgid "Format (optional, for dates)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1169
+msgid "Fallback if missing"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1213 src/ui/rule_dialogs.rs:1445
+msgid "Expression"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1217
+msgid ""
+"Variables: {name}, {ext}, {parent}, {size}, {counter}, {date}.\n"
+"             Functions: ${upper(name)}, ${lower(name)}, ${replace(name, "
+"\"a\", \"b\")},              ${substr(name, 0, 5)}, ${trim(name)}, $"
+"{pad(counter, 3)}."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1230
+msgid "Template"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1236
+msgid "Enter an expression template."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1259 src/ui/rule_dialogs.rs:1455
+#, fuzzy
+msgid "Conversion"
+msgstr "الإصدار"
+
+#: src/ui/rule_dialogs.rs:1271 src/ui/rule_dialogs.rs:1450
+msgid "Transliterate"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1293
+#, fuzzy
+msgid "Remove \"{}\""
+msgstr "إزالة \"%s\""
+
+#: src/ui/rule_dialogs.rs:1300
+msgid "Change Case"
+msgstr "تغيير الحالة"
+
+#: src/ui/rule_dialogs.rs:1305 src/ui/rule_dialogs.rs:1432
+msgid "Date/Time"
+msgstr "التاريخ/الوقت"
+
+#: src/ui/rule_dialogs.rs:1312
+#, fuzzy
+msgid "Parent folder name"
+msgstr "اسم الإعداد المسبق"
+
+#: src/ui/rule_dialogs.rs:1313
+msgid "Grandparent folder name"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1314
+msgid "Dynamic"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1317
+msgid "at beginning"
+msgstr "في البداية"
+
+#: src/ui/rule_dialogs.rs:1318
+msgid "at end"
+msgstr "في النهاية"
+
+#: src/ui/rule_dialogs.rs:1320
+#, fuzzy
+msgid "at position {}"
+msgstr "في الموضع %d"
+
+#: src/ui/rule_dialogs.rs:1322 src/ui/rule_dialogs.rs:1348
+msgid "custom"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1329
+msgid "Pattern /{}/"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1331
+#, fuzzy
+msgid "First {} chars"
+msgstr "أول %d حرف"
+
+#: src/ui/rule_dialogs.rs:1334
+#, fuzzy
+msgid "Last {} chars"
+msgstr "آخر %d حرف"
+
+#: src/ui/rule_dialogs.rs:1336
+msgid "All digits"
+msgstr "جميع الأرقام"
+
+#: src/ui/rule_dialogs.rs:1337
+msgid "All whitespace"
+msgstr "جميع المسافات"
+
+#: src/ui/rule_dialogs.rs:1338
+msgid "Leading zeros"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1339
+msgid "Bracketed content"
+msgstr "المحتوى بين الأقواس"
+
+#: src/ui/rule_dialogs.rs:1340
+#, fuzzy
+msgid "Custom"
+msgstr "قاعدة مخصصة"
+
+#: src/ui/rule_dialogs.rs:1346 src/ui/rule_dialogs.rs:1429
+#: src/ui/rule_dialogs.rs:1476
+msgid "prefix"
+msgstr "بادئة"
+
+#: src/ui/rule_dialogs.rs:1347 src/ui/rule_dialogs.rs:1427
+#: src/ui/rule_dialogs.rs:1475
+msgid "suffix"
+msgstr "لاحقة"
+
+#: src/ui/rule_dialogs.rs:1352
+#, fuzzy
+msgid "Start: {}, Pad: {} digits, {}"
+msgstr "البداية: %d، الحشو: %d أرقام، %s"
+
+#: src/ui/rule_dialogs.rs:1361
+msgid "Whitespace from both ends"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1362
+msgid "Whitespace from the start"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1363
+msgid "Whitespace from the end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1364
+#, fuzzy
+msgid "Characters: {}"
+msgstr "موضع الحرف"
+
+#: src/ui/rule_dialogs.rs:1367
+msgid "Max length {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1373
+msgid "Pad"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1374
+msgid "To {} chars with '{}' at {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "start"
+msgstr "البدء من"
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "end"
+msgstr "في النهاية"
+
+#: src/ui/rule_dialogs.rs:1387
+msgid "collapse spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1390
+msgid "strip special chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1393
+msgid "strip accents"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1396
+#, fuzzy
+msgid "replace spaces"
+msgstr "استبدال النص"
+
+#: src/ui/rule_dialogs.rs:1399
+msgid "Normalize"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1407
+msgid "Split on \"{}\", order {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1425 src/ui/rule_dialogs.rs:1472
+#, fuzzy
+msgid "Date"
+msgstr "التاريخ/الوقت"
+
+#: src/ui/rule_dialogs.rs:1433 src/ui/rule_dialogs.rs:1478
+msgid "{} as {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1440
+msgid "Metadata"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1466
+msgid "Modified date"
+msgstr "تاريخ التعديل"
+
+#: src/ui/rule_dialogs.rs:1467
+msgid "Created date"
+msgstr "تاريخ الإنشاء"
+
+#: src/ui/rule_dialogs.rs:1468
+msgid "Current date"
+msgstr "التاريخ الحالي"
+
+#: src/ui/rule_dialogs.rs:1469
+#, fuzzy
+msgid "EXIF date"
+msgstr "تاريخ EXIF للالتقاط"
+
+#: src/ui/rule_dialogs.rs:1470
+#, fuzzy
+msgid "Accessed date"
+msgstr "تاريخ الإنشاء"
+
+#: src/ui/window.rs:244
+msgid "Interrupted Rename Detected"
+msgstr ""
+
+#: src/ui/window.rs:247
+msgid ""
+"A previous rename was interrupted and left {} file(s) under temporary "
+"names.                      Restore them to their original names now?"
+msgstr ""
+
+#: src/ui/window.rs:254
+msgid "Later"
+msgstr ""
+
+#: src/ui/window.rs:255
+msgid "Restore"
+msgstr ""
+
+#: src/ui/window.rs:266
+msgid "Restored {} file(s)."
+msgstr ""
+
+#: src/ui/window.rs:274 src/ui/window.rs:2243
+msgid "…and {} more."
+msgstr ""
+
+#: src/ui/window.rs:279
+#, fuzzy
+msgid "Recovery Complete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/window.rs:281
+#, fuzzy
+msgid "Recovery Incomplete"
+msgstr "اكتملت إعادة التسمية"
+
+#: src/ui/window.rs:317
+msgid "Wait until the current operation finishes"
+msgstr ""
+
+#: src/ui/window.rs:350
+msgid "Menu"
+msgstr "القائمة"
+
+#: src/ui/window.rs:376
+msgid "A powerful bulk file renaming application for Linux"
+msgstr "تطبيق قوي لإعادة تسمية الملفات بشكل مجمّع لنظام Linux"
+
+#: src/ui/window.rs:379
+msgid "Created by"
+msgstr "تم إنشاؤه بواسطة"
+
+#: src/ui/window.rs:440
+msgid "Add Files"
+msgstr "إضافة ملفات"
+
+#: src/ui/window.rs:447
+msgid "Add Folder"
+msgstr "إضافة مجلد"
+
+#: src/ui/window.rs:454
+msgid "Clear All"
+msgstr "مسح الكل"
+
+#: src/ui/window.rs:478
+#, fuzzy
+msgid "Sort Files"
+msgstr "لا توجد ملفات"
+
+#: src/ui/window.rs:501 src/ui/window.rs:1642
+#, fuzzy
+msgid "{} files"
+msgstr "%d ملف"
+
+#: src/ui/window.rs:506 src/ui/window.rs:1658
+#, fuzzy
+msgid "{} selected"
+msgstr "%d مُحدد"
+
+#: src/ui/window.rs:528
+msgid "Filter by name (use * and ? for globs)"
+msgstr ""
+
+#: src/ui/window.rs:541
+msgid "Extensions: jpg, png"
+msgstr ""
+
+#: src/ui/window.rs:543
+msgid "Only rename files with these extensions (comma-separated)"
+msgstr ""
+
+#: src/ui/window.rs:579
+#, fuzzy
+msgid "Include in the rename"
+msgstr "سيتم إعادة تسمية %d"
+
+#: src/ui/window.rs:644
+msgid "No Files"
+msgstr "لا توجد ملفات"
+
+#: src/ui/window.rs:645
+msgid "Drop files here or click + to add"
+msgstr "اسحب الملفات هنا أو انقر + للإضافة"
+
+#: src/ui/window.rs:687
+msgid "Select All"
+msgstr "تحديد الكل"
+
+#: src/ui/window.rs:693
+msgid "Remove Selected"
+msgstr "إزالة المُحدد"
+
+#: src/ui/window.rs:800
+msgid "Rules"
+msgstr "القواعد"
+
+#: src/ui/window.rs:815
+#, fuzzy
+msgid "Clear All Rules"
+msgstr "مسح الكل"
+
+#: src/ui/window.rs:839
+msgid "Apply to"
+msgstr "تطبيق على"
+
+#: src/ui/window.rs:841
+msgid "Files only"
+msgstr "الملفات فقط"
+
+#: src/ui/window.rs:842
+msgid "Folders only"
+msgstr "المجلدات فقط"
+
+#: src/ui/window.rs:843
+msgid "Both"
+msgstr "كلاهما"
+
+#: src/ui/window.rs:869
+#, fuzzy
+msgid ""
+"No rules added\n"
+"Click + to add a rule"
+msgstr "انقر + لإضافة قاعدة"
+
+#: src/ui/window.rs:889
+msgid "Process extension separately"
+msgstr "معالجة الامتداد بشكل منفصل"
+
+#: src/ui/window.rs:950
+msgid "Preview"
+msgstr "معاينة"
+
+#: src/ui/window.rs:958
+msgid "Refresh Preview"
+msgstr "تحديث المعاينة"
+
+#: src/ui/window.rs:977
+#, fuzzy
+msgid "0 will be renamed"
+msgstr "سيتم إعادة تسمية %d"
+
+#: src/ui/window.rs:988
+#, fuzzy
+msgid "Add Numbers"
+msgstr "إضافة الترقيم"
+
+#: src/ui/window.rs:995
+msgid "Collisions are renamed with (n) suffixes"
+msgstr ""
+
+#: src/ui/window.rs:1034
+msgid "Original"
+msgstr "الأصلي"
+
+#: src/ui/window.rs:1034
+msgid "New Name"
+msgstr "الاسم الجديد"
+
+#: src/ui/window.rs:1118
+#, fuzzy
+msgid "No files to preview"
+msgstr "أضف ملفات وقواعد لرؤية المعاينة"
+
+#: src/ui/window.rs:1443
+msgid "Select Files"
+msgstr "اختيار الملفات"
+
+#: src/ui/window.rs:1466
+msgid "Select Folder"
+msgstr "اختيار مجلد"
+
+#: src/ui/window.rs:1672
+msgid "{} file — {}"
+msgstr ""
+
+#: src/ui/window.rs:1674
+msgid "{} files — {}"
+msgstr ""
+
+#: src/ui/window.rs:1875
+msgid "Excluded from this batch"
+msgstr ""
+
+#: src/ui/window.rs:1885
+msgid "Filtered out"
+msgstr ""
+
+#: src/ui/window.rs:1899
+msgid "Manually renamed"
+msgstr ""
+
+#: src/ui/window.rs:1944
+msgid "{} rename, {} unchanged, {} conflicts, {} errors"
+msgstr ""
+
+#: src/ui/window.rs:1959
+msgid "{} name collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:1961
+msgid "{} names collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:2015
+msgid "Nothing to Rename"
+msgstr "لا شيء لإعادة تسميته"
+
+#: src/ui/window.rs:2016
+msgid "No files will be renamed with the current rules."
+msgstr "لن يتم إعادة تسمية أي ملفات بالقواعد الحالية."
+
+#: src/ui/window.rs:2023
+msgid "Resolve the conflicts and errors shown in the preview first."
+msgstr ""
+
+#: src/ui/window.rs:2040
+msgid "Confirm Rename"
+msgstr "تأكيد إعادة التسمية"
+
+#: src/ui/window.rs:2042
+#, fuzzy
+msgid "Rename {} files?"
+msgstr "إعادة تسمية %d ملف؟"
+
+#: src/ui/window.rs:2092
+#, fuzzy
+msgid "Renamed {} files"
+msgstr "إعادة تسمية %d ملف؟"
+
+#: src/ui/window.rs:2108
+#, fuzzy
+msgid "Renamed {} files successfully, {} failed."
+msgstr "تمت إعادة تسمية %d ملف بنجاح، فشل %d."
+
+#: src/ui/window.rs:2112
+msgid "Rename Completed with Errors"
+msgstr "اكتملت إعادة التسمية مع أخطاء"
+
+#: src/ui/window.rs:2213
+msgid "OK"
+msgstr "موافق"
+
+#: src/ui/window.rs:2307
+msgid "Select the type of rule to add:"
+msgstr "اختر نوع القاعدة للإضافة:"
+
+#: src/ui/window.rs:2522
+msgid "Drag to reorder"
+msgstr "اسحب لإعادة الترتيب"
+
+#: src/ui/window.rs:2562
+msgid "Enable this rule"
+msgstr ""
+
+#: src/ui/window.rs:2571
+msgid "Edit rule"
+msgstr "تحرير القاعدة"
+
+#: src/ui/window.rs:2578
+msgid "Remove rule"
+msgstr "إزالة القاعدة"
+
+#: src/ui/window.rs:2764
+#, fuzzy
+msgid "Loaded preset '{}'"
+msgstr "تحميل الإعداد المسبق…"
+
+#: src/ui/window.rs:2820
+msgid "Click to type a name for this file; clear it to follow the rules again"
+msgstr ""
+
+#~ msgid "System"
+#~ msgstr "النظام"
+
+#~ msgid "Light"
+#~ msgstr "فاتح"
+
+#~ msgid "Dark"
+#~ msgstr "داكن"
+
+#~ msgid "Choose an action:"
+#~ msgstr "اختر إجراءً:"
+
+#~ msgid "No rules added"
+#~ msgstr "لم تُضف قواعد"
+
+#, c-format
+#~ msgid "Successfully renamed %d files."
+#~ msgstr "تمت إعادة تسمية %d ملف بنجاح."
+
+#~ msgid "Find and replace text"
+#~ msgstr "البحث والاستبدال"
+
+#~ msgid "UPPER, lower, Title Case"
+#~ msgstr "كبير، صغير، حالة العنوان"
+
+#~ msgid "Insert Text"
+#~ msgstr "إدراج نص"
+
+#~ msgid "Add text at position"
+#~ msgstr "إضافة نص في موضع"
+
+#~ msgid "Remove Text"
+#~ msgstr "إزالة النص"
+
+#~ msgid "Add sequential numbers"
+#~ msgstr "إضافة أرقام متسلسلة"
+
+#~ msgid "Insert date information"
+#~ msgstr "إدراج معلومات التاريخ"
+
+#, c-format
+#~ msgid "\"%s\" → \"%s\""
+#~ msgstr "\"%s\" → \"%s\""
+
+#~ msgid "lowercase"
+#~ msgstr "أحرف صغيرة"
+
+#~ msgid "UPPERCASE"
+#~ msgstr "أحرف كبيرة"
+
+#~ msgid "Title Case"
+#~ msgstr "حالة العنوان"
+
+#~ msgid "Sentence case"
+#~ msgstr "حالة الجملة"
+
+#~ msgid "snake_case"
+#~ msgstr "snake_case"
+
+#~ msgid "kebab-case"
+#~ msgstr "kebab-case"
+
+#~ msgid "All letters become lowercase"
+#~ msgstr "تصبح جميع الأحرف صغيرة"
+
+#~ msgid "All letters become uppercase"
+#~ msgstr "تصبح جميع الأحرف كبيرة"
+
+#~ msgid "First letter of each word uppercase"
+#~ msgstr "الحرف الأول من كل كلمة كبير"
+
+#~ msgid "First letter uppercase, rest lowercase"
+#~ msgstr "الحرف الأول كبير، الباقي صغير"
+
+#~ msgid "Words joined with underscores"
+#~ msgstr "الكلمات مرتبطة بشرطات سفلية"
+
+#~ msgid "Words joined with hyphens"
+#~ msgstr "الكلمات مرتبطة بشرطات"
+
+#~ msgid "Edit Replace Rule"
+#~ msgstr "تحرير قاعدة الاستبدال"
+
+#~ msgid "Beginning (prefix)"
+#~ msgstr "البداية (بادئة)"
+
+#~ msgid "End (suffix)"
+#~ msgstr "النهاية (لاحقة)"
+
+#~ msgid "At position"
+#~ msgstr "في الموضع"
+
+#~ msgid "Edit Insert Rule"
+#~ msgstr "تحرير قاعدة الإدراج"
+
+#~ msgid "Specific text"
+#~ msgstr "نص محدد"
+
+#~ msgid "First N characters"
+#~ msgstr "أول N حرف"
+
+#~ msgid "Last N characters"
+#~ msgstr "آخر N حرف"
+
+#~ msgid "Bracketed content (…)"
+#~ msgstr "المحتوى بين الأقواس (…)"
+
+#, c-format
+#~ msgid "First %d characters"
+#~ msgstr "أول %d حرف"
+
+#~ msgid "Edit Remove Rule"
+#~ msgstr "تحرير قاعدة الإزالة"
+
+#~ msgid "Edit Numbering Rule"
+#~ msgstr "تحرير قاعدة الترقيم"
+
+#~ msgid "File modified date"
+#~ msgstr "تاريخ تعديل الملف"
+
+#~ msgid "File created date"
+#~ msgstr "تاريخ إنشاء الملف"
+
+#~ msgid "Edit Change Case Rule"
+#~ msgstr "تحرير قاعدة تغيير الحالة"
+
+#~ msgid "Confirm"
+#~ msgstr "تأكيد"
+
+#~ msgid "Select Preset"
+#~ msgstr "اختيار الإعداد المسبق"
+
+#~ msgid "Apply"
+#~ msgstr "تطبيق"

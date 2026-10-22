@@ -1,0 +1,1303 @@
+# Mandarin Chinese translation for bulk-renamer.
+# Copyright (C) 2024-2026 Christos A. Daggas
+# This file is distributed under the same license as the bulk-renamer package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bulk-renamer 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/christosdaggas/Bulk-Renamer/issues\n"
+"POT-Creation-Date: 2026-10-22 13:03+0300\n"
+"PO-Revision-Date: 2026-01-07 12:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Chinese (Simplified)\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: src/ui/csv_io.rs:17
+msgid "Import from CSV"
+msgstr "从 CSV 导入"
+
+#: src/ui/csv_io.rs:42
+msgid "Export Log"
+msgstr "导出日志"
+
+#: src/ui/csv_io.rs:58
+msgid "Rename log exported to CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:60 src/ui/csv_io.rs:185 src/ui/csv_io.rs:257
+#, fuzzy
+msgid "Export Failed"
+msgstr "导出日志"
+
+#: src/ui/csv_io.rs:75
+#, fuzzy
+msgid "Import CSV Renames"
+msgstr "从 CSV 导入"
+
+#: src/ui/csv_io.rs:77
+msgid "Apply {} renames from the CSV file?"
+msgstr ""
+
+#: src/ui/csv_io.rs:82 src/ui/dialogs.rs:52 src/ui/execution.rs:52
+#: src/ui/preferences_dialog.rs:22 src/ui/presets_dialog.rs:24
+#: src/ui/presets_dialog.rs:74 src/ui/presets_dialog.rs:161
+#: src/ui/rule_dialogs.rs:185 src/ui/window.rs:2048 src/ui/window.rs:2332
+msgid "Cancel"
+msgstr "取消"
+
+#: src/ui/csv_io.rs:83 src/ui/window.rs:334 src/ui/window.rs:2049
+msgid "Rename"
+msgstr "重命名"
+
+#: src/ui/csv_io.rs:100
+msgid "CSV Import Failed"
+msgstr ""
+
+#: src/ui/csv_io.rs:113
+msgid "CSV must include an original_path column"
+msgstr ""
+
+#: src/ui/csv_io.rs:119
+msgid "CSV must include a new_name column"
+msgstr ""
+
+#: src/ui/csv_io.rs:159
+#, fuzzy
+msgid "Nothing to Export"
+msgstr "无需重命名"
+
+#: src/ui/csv_io.rs:160
+#, fuzzy
+msgid "Add files to build a preview first."
+msgstr "添加文件和规则以查看预览"
+
+#: src/ui/csv_io.rs:166
+msgid "Export Preview as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:183
+msgid "Preview exported as CSV"
+msgstr ""
+
+#: src/ui/csv_io.rs:219
+msgid "No Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:220 src/ui/history_dialog.rs:14
+msgid "No renames have been recorded yet."
+msgstr ""
+
+#: src/ui/csv_io.rs:226
+msgid "Export Undo Script"
+msgstr ""
+
+#: src/ui/csv_io.rs:255
+msgid "Undo script exported"
+msgstr ""
+
+#: src/ui/dialogs.rs:14 src/ui/window.rs:81 src/ui/window.rs:329
+#: src/ui/window.rs:368
+msgid "Bulk Renamer"
+msgstr "批量重命名"
+
+#: src/ui/dialogs.rs:46
+msgid "Processing..."
+msgstr "处理中..."
+
+#: src/ui/execution.rs:84
+#, fuzzy
+msgid "Renaming Files…"
+msgstr "重命名失败"
+
+#: src/ui/execution.rs:85
+msgid "Preparing…"
+msgstr ""
+
+#: src/ui/execution.rs:93
+#, fuzzy
+msgid "Cancelling…"
+msgstr "取消"
+
+#: src/ui/execution.rs:126
+msgid "{} of {} steps"
+msgstr ""
+
+#: src/ui/execution.rs:145
+msgid "Rename cancelled — no files were changed"
+msgstr ""
+
+#: src/ui/execution.rs:149 src/ui/window.rs:2022
+#, fuzzy
+msgid "Rename Blocked"
+msgstr "重命名失败"
+
+#: src/ui/execution.rs:173
+#, fuzzy
+msgid "Undoing Rename…"
+msgstr "无需重命名"
+
+#: src/ui/execution.rs:174
+#, fuzzy
+msgid "Redoing Rename…"
+msgstr "无需重命名"
+
+#: src/ui/execution.rs:178
+msgid "Working…"
+msgstr ""
+
+#: src/ui/execution.rs:225
+#, fuzzy
+msgid "Undo Complete"
+msgstr "重命名完成"
+
+#: src/ui/execution.rs:226
+#, fuzzy
+msgid "Undo Incomplete"
+msgstr "重命名完成"
+
+#: src/ui/execution.rs:227
+msgid "Undo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:231
+#, fuzzy
+msgid "Redo Complete"
+msgstr "重命名完成"
+
+#: src/ui/execution.rs:232
+#, fuzzy
+msgid "Redo Incomplete"
+msgstr "重命名完成"
+
+#: src/ui/execution.rs:233
+msgid "Redo Unavailable"
+msgstr ""
+
+#: src/ui/execution.rs:239
+#, fuzzy
+msgid "Restored {} of {} renamed files."
+msgstr "无法重命名 %d 个文件。"
+
+#: src/ui/execution.rs:241
+msgid "Renamed {} of {} files again."
+msgstr ""
+
+#: src/ui/history_dialog.rs:13
+msgid "No History"
+msgstr ""
+
+#: src/ui/history_dialog.rs:20
+#, fuzzy
+msgid "Rename History"
+msgstr "重命名 %d 个文件？"
+
+#: src/ui/history_dialog.rs:46 src/ui/window.rs:2192
+msgid "Undo"
+msgstr ""
+
+#: src/ui/menu.rs:27
+msgid "Save Preset…"
+msgstr "保存预设…"
+
+#: src/ui/menu.rs:28
+msgid "Load Preset…"
+msgstr "加载预设…"
+
+#: src/ui/menu.rs:32
+msgid "Import from CSV…"
+msgstr "从 CSV 导入…"
+
+#: src/ui/menu.rs:33
+#, fuzzy
+msgid "Export Preview as CSV…"
+msgstr "从 CSV 导入…"
+
+#: src/ui/menu.rs:34
+msgid "Export Log…"
+msgstr "导出日志…"
+
+#: src/ui/menu.rs:35
+#, fuzzy
+msgid "Export Undo Script…"
+msgstr "导出日志…"
+
+#: src/ui/menu.rs:39
+#, fuzzy
+msgid "Undo Last Rename"
+msgstr "无需重命名"
+
+#: src/ui/menu.rs:40
+#, fuzzy
+msgid "Redo Rename"
+msgstr "重命名"
+
+#: src/ui/menu.rs:41
+msgid "Rename History…"
+msgstr ""
+
+#: src/ui/menu.rs:45 src/ui/preferences_dialog.rs:13
+msgid "Preferences"
+msgstr ""
+
+#: src/ui/menu.rs:46
+msgid "Keyboard Shortcuts"
+msgstr ""
+
+#: src/ui/menu.rs:47
+msgid "About Bulk Renamer"
+msgstr "关于批量重命名"
+
+#: src/ui/preferences_dialog.rs:24 src/ui/presets_dialog.rs:25
+#: src/ui/rule_dialogs.rs:188
+msgid "Save"
+msgstr "保存"
+
+#: src/ui/preferences_dialog.rs:32
+msgid "Behavior"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:34
+#, fuzzy
+msgid "Confirm Before Rename"
+msgstr "确认重命名"
+
+#: src/ui/preferences_dialog.rs:38
+#, fuzzy
+msgid "Live Preview"
+msgstr "预览"
+
+#: src/ui/preferences_dialog.rs:39
+msgid "Recompute the preview automatically after every change"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:43
+msgid "Show Unchanged Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:51 src/ui/window.rs:432
+msgid "Files"
+msgstr "文件"
+
+#: src/ui/preferences_dialog.rs:53
+msgid "Include Hidden Files"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:57
+msgid "Follow Symlinks"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:61
+msgid "Load Metadata"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:65
+msgid "Folder Scan Depth"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:82
+msgid "History and Logs"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:85
+msgid "Persist Undo History"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:86
+msgid "Undo always works during a session; this keeps it across restarts"
+msgstr ""
+
+#: src/ui/preferences_dialog.rs:90
+msgid "Log Rename Operations"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:15
+msgid "Save Preset"
+msgstr "保存预设"
+
+#: src/ui/presets_dialog.rs:16
+msgid "Enter a name for this preset:"
+msgstr "输入此预设的名称："
+
+#: src/ui/presets_dialog.rs:20
+msgid "Preset name"
+msgstr "预设名称"
+
+#: src/ui/presets_dialog.rs:39 src/ui/presets_dialog.rs:97
+#: src/ui/presets_dialog.rs:113
+#, fuzzy
+msgid "Preset Not Saved"
+msgstr "预设名称"
+
+#: src/ui/presets_dialog.rs:40
+msgid "Preset name cannot be empty."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:68
+msgid "Replace preset “{}”?"
+msgstr ""
+
+#: src/ui/presets_dialog.rs:72
+msgid "A preset with this name already exists. Its rules will be replaced."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:75 src/ui/rule_dialogs.rs:1297
+msgid "Replace"
+msgstr "替换"
+
+#: src/ui/presets_dialog.rs:95 src/ui/presets_dialog.rs:112
+#, fuzzy
+msgid "Preset saved"
+msgstr "预设名称"
+
+#: src/ui/presets_dialog.rs:123
+#, fuzzy
+msgid "No Presets"
+msgstr "预设"
+
+#: src/ui/presets_dialog.rs:124
+msgid "There are no presets to load yet."
+msgstr ""
+
+#: src/ui/presets_dialog.rs:131
+#, fuzzy
+msgid "Load Preset"
+msgstr "加载预设…"
+
+#: src/ui/presets_dialog.rs:132
+#, fuzzy
+msgid "Choose a preset to apply."
+msgstr "选择要应用的预设："
+
+#: src/ui/presets_dialog.rs:148
+#, fuzzy
+msgid "{} rules"
+msgstr "规则"
+
+#: src/ui/presets_dialog.rs:162
+msgid "Load"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:171
+#, fuzzy
+msgid "Edit {} Rule"
+msgstr "编辑规则"
+
+#: src/ui/rule_dialogs.rs:188 src/ui/window.rs:808 src/ui/window.rs:2306
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: src/ui/rule_dialogs.rs:305
+msgid "Find"
+msgstr "查找"
+
+#: src/ui/rule_dialogs.rs:306
+msgid "Replace with"
+msgstr "替换为"
+
+#: src/ui/rule_dialogs.rs:308 src/ui/rule_dialogs.rs:565
+msgid "Case sensitive"
+msgstr "区分大小写"
+
+#: src/ui/rule_dialogs.rs:312
+msgid "Use regular expressions"
+msgstr "使用正则表达式"
+
+#: src/ui/rule_dialogs.rs:316
+msgid "Replace all occurrences"
+msgstr "替换所有匹配项"
+
+#: src/ui/rule_dialogs.rs:323 src/ui/rule_dialogs.rs:599
+#: src/ui/rule_dialogs.rs:912 src/ui/rule_dialogs.rs:1178
+msgid "Options"
+msgstr "选项"
+
+#: src/ui/rule_dialogs.rs:330
+msgid "Enter the text to find."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:334 src/ui/rule_dialogs.rs:620
+#, fuzzy
+msgid "Invalid regular expression: {}"
+msgstr "使用正则表达式"
+
+#: src/ui/rule_dialogs.rs:386
+msgid "Convert to"
+msgstr "转换为"
+
+#: src/ui/rule_dialogs.rs:403
+msgid "Case Type"
+msgstr "大小写类型"
+
+#: src/ui/rule_dialogs.rs:442 src/ui/rule_dialogs.rs:1324
+msgid "Insert"
+msgstr "插入"
+
+#: src/ui/rule_dialogs.rs:451
+msgid "Text to insert"
+msgstr "要插入的文本"
+
+#: src/ui/rule_dialogs.rs:459 src/ui/rule_dialogs.rs:683
+#: src/ui/rule_dialogs.rs:824 src/ui/rule_dialogs.rs:1171
+msgid "Insert at"
+msgstr "插入位置"
+
+#: src/ui/rule_dialogs.rs:469
+msgid "Character position"
+msgstr "字符位置"
+
+#: src/ui/rule_dialogs.rs:488 src/ui/rule_dialogs.rs:701
+msgid "Position"
+msgstr "位置"
+
+#: src/ui/rule_dialogs.rs:498
+#, fuzzy
+msgid "Enter the text to insert."
+msgstr "要插入的文本"
+
+#: src/ui/rule_dialogs.rs:549 src/ui/rule_dialogs.rs:1342
+msgid "Remove"
+msgstr "删除"
+
+#: src/ui/rule_dialogs.rs:563
+#, fuzzy
+msgid "Text or pattern"
+msgstr "要插入的文本"
+
+#: src/ui/rule_dialogs.rs:569
+msgid "Number of characters"
+msgstr "字符数量"
+
+#: src/ui/rule_dialogs.rs:573
+#, fuzzy
+msgid "Bracket type"
+msgstr "括号内容"
+
+#: src/ui/rule_dialogs.rs:607
+#, fuzzy
+msgid "Enter the text to remove."
+msgstr "要删除的文本"
+
+#: src/ui/rule_dialogs.rs:617
+msgid "Enter the pattern to remove."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:657
+msgid "Start at"
+msgstr "起始值"
+
+#: src/ui/rule_dialogs.rs:661
+msgid "Increment by"
+msgstr "增量"
+
+#: src/ui/rule_dialogs.rs:665
+msgid "Digits (zero-padding)"
+msgstr "位数（零填充）"
+
+#: src/ui/rule_dialogs.rs:669
+#, fuzzy
+msgid "Number format"
+msgstr "字符数量"
+
+#: src/ui/rule_dialogs.rs:691
+msgid "Separator"
+msgstr "分隔符"
+
+#: src/ui/rule_dialogs.rs:694
+msgid "Restart numbering per folder"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:699 src/ui/rule_dialogs.rs:1351
+msgid "Numbering"
+msgstr "编号"
+
+#: src/ui/rule_dialogs.rs:700 src/ui/rule_dialogs.rs:831
+msgid "Format"
+msgstr "格式"
+
+#: src/ui/rule_dialogs.rs:797
+msgid "Date source"
+msgstr "日期来源"
+
+#: src/ui/rule_dialogs.rs:806
+#, fuzzy
+msgid "Custom…"
+msgstr "自定义规则"
+
+#: src/ui/rule_dialogs.rs:811
+msgid "Date format"
+msgstr "日期格式"
+
+#: src/ui/rule_dialogs.rs:816
+msgid "Custom format (chrono)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:845
+msgid "Enter a chrono date format, e.g. %Y-%m-%d."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:882 src/ui/rule_dialogs.rs:1370
+msgid "Trim"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:893
+#, fuzzy
+msgid "Characters to trim"
+msgstr "字符位置"
+
+#: src/ui/rule_dialogs.rs:895
+msgid "Maximum length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:922
+#, fuzzy
+msgid "Enter the characters to trim."
+msgstr "删除字符或模式"
+
+#: src/ui/rule_dialogs.rs:945
+msgid "Target length"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:948
+#, fuzzy
+msgid "Padding character"
+msgstr "后 %d 个字符"
+
+#: src/ui/rule_dialogs.rs:950
+msgid "Pad at"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:956
+msgid "Padding"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:967
+msgid "Enter a padding character."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:991
+msgid "Collapse repeated spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:995
+#, fuzzy
+msgid "Remove special characters"
+msgstr "删除字符或模式"
+
+#: src/ui/rule_dialogs.rs:998
+#, fuzzy
+msgid "Characters to preserve"
+msgstr "字符位置"
+
+#: src/ui/rule_dialogs.rs:1000
+msgid "Remove accents and diacritics"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1004
+msgid "Normalize Unicode"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1008
+msgid "Spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1020 src/ui/rule_dialogs.rs:1403
+msgid "Clean Up"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1052
+msgid "Split on"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1059
+msgid "New order (e.g. 2, 1, 3)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1060
+msgid "Join with"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1063
+msgid ""
+"The name is split on the separator; parts are numbered from 1. Parts left "
+"out of the order are dropped."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1074 src/ui/rule_dialogs.rs:1406
+msgid "Rearrange"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1084
+msgid "Enter the separator to split on."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1096
+msgid ""
+"The order must be a comma-separated list of part numbers, starting at 1."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1103
+msgid "Enter at least one part number."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1158
+msgid "Metadata field"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1166
+msgid "Format (optional, for dates)"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1169
+msgid "Fallback if missing"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1213 src/ui/rule_dialogs.rs:1445
+msgid "Expression"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1217
+msgid ""
+"Variables: {name}, {ext}, {parent}, {size}, {counter}, {date}.\n"
+"             Functions: ${upper(name)}, ${lower(name)}, ${replace(name, "
+"\"a\", \"b\")},              ${substr(name, 0, 5)}, ${trim(name)}, $"
+"{pad(counter, 3)}."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1230
+msgid "Template"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1236
+msgid "Enter an expression template."
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1259 src/ui/rule_dialogs.rs:1455
+#, fuzzy
+msgid "Conversion"
+msgstr "版本"
+
+#: src/ui/rule_dialogs.rs:1271 src/ui/rule_dialogs.rs:1450
+msgid "Transliterate"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1293
+#, fuzzy
+msgid "Remove \"{}\""
+msgstr "删除 \"%s\""
+
+#: src/ui/rule_dialogs.rs:1300
+msgid "Change Case"
+msgstr "更改大小写"
+
+#: src/ui/rule_dialogs.rs:1305 src/ui/rule_dialogs.rs:1432
+msgid "Date/Time"
+msgstr "日期/时间"
+
+#: src/ui/rule_dialogs.rs:1312
+#, fuzzy
+msgid "Parent folder name"
+msgstr "预设名称"
+
+#: src/ui/rule_dialogs.rs:1313
+msgid "Grandparent folder name"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1314
+msgid "Dynamic"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1317
+msgid "at beginning"
+msgstr "在开头"
+
+#: src/ui/rule_dialogs.rs:1318
+msgid "at end"
+msgstr "在结尾"
+
+#: src/ui/rule_dialogs.rs:1320
+#, fuzzy
+msgid "at position {}"
+msgstr "在位置 %d"
+
+#: src/ui/rule_dialogs.rs:1322 src/ui/rule_dialogs.rs:1348
+msgid "custom"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1329
+msgid "Pattern /{}/"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1331
+#, fuzzy
+msgid "First {} chars"
+msgstr "前 %d 个字符"
+
+#: src/ui/rule_dialogs.rs:1334
+#, fuzzy
+msgid "Last {} chars"
+msgstr "后 %d 个字符"
+
+#: src/ui/rule_dialogs.rs:1336
+msgid "All digits"
+msgstr "所有数字"
+
+#: src/ui/rule_dialogs.rs:1337
+msgid "All whitespace"
+msgstr "所有空白"
+
+#: src/ui/rule_dialogs.rs:1338
+msgid "Leading zeros"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1339
+msgid "Bracketed content"
+msgstr "括号内容"
+
+#: src/ui/rule_dialogs.rs:1340
+#, fuzzy
+msgid "Custom"
+msgstr "自定义规则"
+
+#: src/ui/rule_dialogs.rs:1346 src/ui/rule_dialogs.rs:1429
+#: src/ui/rule_dialogs.rs:1476
+msgid "prefix"
+msgstr "前缀"
+
+#: src/ui/rule_dialogs.rs:1347 src/ui/rule_dialogs.rs:1427
+#: src/ui/rule_dialogs.rs:1475
+msgid "suffix"
+msgstr "后缀"
+
+#: src/ui/rule_dialogs.rs:1352
+#, fuzzy
+msgid "Start: {}, Pad: {} digits, {}"
+msgstr "起始：%d，补齐：%d 位，%s"
+
+#: src/ui/rule_dialogs.rs:1361
+msgid "Whitespace from both ends"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1362
+msgid "Whitespace from the start"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1363
+msgid "Whitespace from the end"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1364
+#, fuzzy
+msgid "Characters: {}"
+msgstr "字符位置"
+
+#: src/ui/rule_dialogs.rs:1367
+msgid "Max length {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1373
+msgid "Pad"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1374
+msgid "To {} chars with '{}' at {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "start"
+msgstr "起始值"
+
+#: src/ui/rule_dialogs.rs:1379
+#, fuzzy
+msgid "end"
+msgstr "在结尾"
+
+#: src/ui/rule_dialogs.rs:1387
+msgid "collapse spaces"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1390
+msgid "strip special chars"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1393
+msgid "strip accents"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1396
+#, fuzzy
+msgid "replace spaces"
+msgstr "替换文本"
+
+#: src/ui/rule_dialogs.rs:1399
+msgid "Normalize"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1407
+msgid "Split on \"{}\", order {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1425 src/ui/rule_dialogs.rs:1472
+#, fuzzy
+msgid "Date"
+msgstr "日期/时间"
+
+#: src/ui/rule_dialogs.rs:1433 src/ui/rule_dialogs.rs:1478
+msgid "{} as {}"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1440
+msgid "Metadata"
+msgstr ""
+
+#: src/ui/rule_dialogs.rs:1466
+msgid "Modified date"
+msgstr "修改日期"
+
+#: src/ui/rule_dialogs.rs:1467
+msgid "Created date"
+msgstr "创建日期"
+
+#: src/ui/rule_dialogs.rs:1468
+msgid "Current date"
+msgstr "当前日期"
+
+#: src/ui/rule_dialogs.rs:1469
+#, fuzzy
+msgid "EXIF date"
+msgstr "EXIF 拍摄日期"
+
+#: src/ui/rule_dialogs.rs:1470
+#, fuzzy
+msgid "Accessed date"
+msgstr "创建日期"
+
+#: src/ui/window.rs:244
+msgid "Interrupted Rename Detected"
+msgstr ""
+
+#: src/ui/window.rs:247
+msgid ""
+"A previous rename was interrupted and left {} file(s) under temporary "
+"names.                      Restore them to their original names now?"
+msgstr ""
+
+#: src/ui/window.rs:254
+msgid "Later"
+msgstr ""
+
+#: src/ui/window.rs:255
+msgid "Restore"
+msgstr ""
+
+#: src/ui/window.rs:266
+msgid "Restored {} file(s)."
+msgstr ""
+
+#: src/ui/window.rs:274 src/ui/window.rs:2243
+msgid "…and {} more."
+msgstr ""
+
+#: src/ui/window.rs:279
+#, fuzzy
+msgid "Recovery Complete"
+msgstr "重命名完成"
+
+#: src/ui/window.rs:281
+#, fuzzy
+msgid "Recovery Incomplete"
+msgstr "重命名完成"
+
+#: src/ui/window.rs:317
+msgid "Wait until the current operation finishes"
+msgstr ""
+
+#: src/ui/window.rs:350
+msgid "Menu"
+msgstr "菜单"
+
+#: src/ui/window.rs:376
+msgid "A powerful bulk file renaming application for Linux"
+msgstr "一款强大的 Linux 批量文件重命名应用程序"
+
+#: src/ui/window.rs:379
+msgid "Created by"
+msgstr "作者"
+
+#: src/ui/window.rs:440
+msgid "Add Files"
+msgstr "添加文件"
+
+#: src/ui/window.rs:447
+msgid "Add Folder"
+msgstr "添加文件夹"
+
+#: src/ui/window.rs:454
+msgid "Clear All"
+msgstr "全部清除"
+
+#: src/ui/window.rs:478
+#, fuzzy
+msgid "Sort Files"
+msgstr "无文件"
+
+#: src/ui/window.rs:501 src/ui/window.rs:1642
+#, fuzzy
+msgid "{} files"
+msgstr "%d 个文件"
+
+#: src/ui/window.rs:506 src/ui/window.rs:1658
+#, fuzzy
+msgid "{} selected"
+msgstr "已选择 %d 个"
+
+#: src/ui/window.rs:528
+msgid "Filter by name (use * and ? for globs)"
+msgstr ""
+
+#: src/ui/window.rs:541
+msgid "Extensions: jpg, png"
+msgstr ""
+
+#: src/ui/window.rs:543
+msgid "Only rename files with these extensions (comma-separated)"
+msgstr ""
+
+#: src/ui/window.rs:579
+#, fuzzy
+msgid "Include in the rename"
+msgstr "%d 个将被重命名"
+
+#: src/ui/window.rs:644
+msgid "No Files"
+msgstr "无文件"
+
+#: src/ui/window.rs:645
+msgid "Drop files here or click + to add"
+msgstr "将文件拖放到此处或点击 + 添加"
+
+#: src/ui/window.rs:687
+msgid "Select All"
+msgstr "全选"
+
+#: src/ui/window.rs:693
+msgid "Remove Selected"
+msgstr "移除选中项"
+
+#: src/ui/window.rs:800
+msgid "Rules"
+msgstr "规则"
+
+#: src/ui/window.rs:815
+#, fuzzy
+msgid "Clear All Rules"
+msgstr "全部清除"
+
+#: src/ui/window.rs:839
+msgid "Apply to"
+msgstr "应用于"
+
+#: src/ui/window.rs:841
+msgid "Files only"
+msgstr "仅文件"
+
+#: src/ui/window.rs:842
+msgid "Folders only"
+msgstr "仅文件夹"
+
+#: src/ui/window.rs:843
+msgid "Both"
+msgstr "两者"
+
+#: src/ui/window.rs:869
+#, fuzzy
+msgid ""
+"No rules added\n"
+"Click + to add a rule"
+msgstr "点击 + 添加规则"
+
+#: src/ui/window.rs:889
+msgid "Process extension separately"
+msgstr "单独处理扩展名"
+
+#: src/ui/window.rs:950
+msgid "Preview"
+msgstr "预览"
+
+#: src/ui/window.rs:958
+msgid "Refresh Preview"
+msgstr "刷新预览"
+
+#: src/ui/window.rs:977
+#, fuzzy
+msgid "0 will be renamed"
+msgstr "%d 个将被重命名"
+
+#: src/ui/window.rs:988
+#, fuzzy
+msgid "Add Numbers"
+msgstr "添加编号"
+
+#: src/ui/window.rs:995
+msgid "Collisions are renamed with (n) suffixes"
+msgstr ""
+
+#: src/ui/window.rs:1034
+msgid "Original"
+msgstr "原始名称"
+
+#: src/ui/window.rs:1034
+msgid "New Name"
+msgstr "新名称"
+
+#: src/ui/window.rs:1118
+#, fuzzy
+msgid "No files to preview"
+msgstr "添加文件和规则以查看预览"
+
+#: src/ui/window.rs:1443
+msgid "Select Files"
+msgstr "选择文件"
+
+#: src/ui/window.rs:1466
+msgid "Select Folder"
+msgstr "选择文件夹"
+
+#: src/ui/window.rs:1672
+msgid "{} file — {}"
+msgstr ""
+
+#: src/ui/window.rs:1674
+msgid "{} files — {}"
+msgstr ""
+
+#: src/ui/window.rs:1875
+msgid "Excluded from this batch"
+msgstr ""
+
+#: src/ui/window.rs:1885
+msgid "Filtered out"
+msgstr ""
+
+#: src/ui/window.rs:1899
+msgid "Manually renamed"
+msgstr ""
+
+#: src/ui/window.rs:1944
+msgid "{} rename, {} unchanged, {} conflicts, {} errors"
+msgstr ""
+
+#: src/ui/window.rs:1959
+msgid "{} name collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:1961
+msgid "{} names collide with existing files"
+msgstr ""
+
+#: src/ui/window.rs:2015
+msgid "Nothing to Rename"
+msgstr "无需重命名"
+
+#: src/ui/window.rs:2016
+msgid "No files will be renamed with the current rules."
+msgstr "当前规则不会重命名任何文件。"
+
+#: src/ui/window.rs:2023
+msgid "Resolve the conflicts and errors shown in the preview first."
+msgstr ""
+
+#: src/ui/window.rs:2040
+msgid "Confirm Rename"
+msgstr "确认重命名"
+
+#: src/ui/window.rs:2042
+#, fuzzy
+msgid "Rename {} files?"
+msgstr "重命名 %d 个文件？"
+
+#: src/ui/window.rs:2092
+#, fuzzy
+msgid "Renamed {} files"
+msgstr "重命名 %d 个文件？"
+
+#: src/ui/window.rs:2108
+#, fuzzy
+msgid "Renamed {} files successfully, {} failed."
+msgstr "成功重命名 %d 个文件，%d 个失败。"
+
+#: src/ui/window.rs:2112
+msgid "Rename Completed with Errors"
+msgstr "重命名完成但有错误"
+
+#: src/ui/window.rs:2213
+msgid "OK"
+msgstr "确定"
+
+#: src/ui/window.rs:2307
+msgid "Select the type of rule to add:"
+msgstr "选择要添加的规则类型："
+
+#: src/ui/window.rs:2522
+msgid "Drag to reorder"
+msgstr "拖动以重新排序"
+
+#: src/ui/window.rs:2562
+msgid "Enable this rule"
+msgstr ""
+
+#: src/ui/window.rs:2571
+msgid "Edit rule"
+msgstr "编辑规则"
+
+#: src/ui/window.rs:2578
+msgid "Remove rule"
+msgstr "删除规则"
+
+#: src/ui/window.rs:2764
+#, fuzzy
+msgid "Loaded preset '{}'"
+msgstr "加载预设…"
+
+#: src/ui/window.rs:2820
+msgid "Click to type a name for this file; clear it to follow the rules again"
+msgstr ""
+
+#~ msgid "System"
+#~ msgstr "系统"
+
+#~ msgid "Light"
+#~ msgstr "浅色"
+
+#~ msgid "Dark"
+#~ msgstr "深色"
+
+#~ msgid "Choose an action:"
+#~ msgstr "选择操作："
+
+#~ msgid "No rules added"
+#~ msgstr "未添加规则"
+
+#, c-format
+#~ msgid "Successfully renamed %d files."
+#~ msgstr "成功重命名 %d 个文件。"
+
+#~ msgid "Find and replace text"
+#~ msgstr "查找并替换文本"
+
+#~ msgid "UPPER, lower, Title Case"
+#~ msgstr "大写、小写、首字母大写"
+
+#~ msgid "Insert Text"
+#~ msgstr "插入文本"
+
+#~ msgid "Add text at position"
+#~ msgstr "在指定位置添加文本"
+
+#~ msgid "Remove Text"
+#~ msgstr "删除文本"
+
+#~ msgid "Add sequential numbers"
+#~ msgstr "添加顺序编号"
+
+#~ msgid "Insert date information"
+#~ msgstr "插入日期信息"
+
+#, c-format
+#~ msgid "\"%s\" → \"%s\""
+#~ msgstr "\"%s\" → \"%s\""
+
+#~ msgid "lowercase"
+#~ msgstr "小写"
+
+#~ msgid "UPPERCASE"
+#~ msgstr "大写"
+
+#~ msgid "Title Case"
+#~ msgstr "首字母大写"
+
+#~ msgid "Sentence case"
+#~ msgstr "句首大写"
+
+#~ msgid "snake_case"
+#~ msgstr "蛇形命名"
+
+#~ msgid "kebab-case"
+#~ msgstr "短横线命名"
+
+#~ msgid "All letters become lowercase"
+#~ msgstr "所有字母变为小写"
+
+#~ msgid "All letters become uppercase"
+#~ msgstr "所有字母变为大写"
+
+#~ msgid "First letter of each word uppercase"
+#~ msgstr "每个单词首字母大写"
+
+#~ msgid "First letter uppercase, rest lowercase"
+#~ msgstr "首字母大写，其余小写"
+
+#~ msgid "Words joined with underscores"
+#~ msgstr "单词用下划线连接"
+
+#~ msgid "Words joined with hyphens"
+#~ msgstr "单词用连字符连接"
+
+#~ msgid "Edit Replace Rule"
+#~ msgstr "编辑替换规则"
+
+#~ msgid "Beginning (prefix)"
+#~ msgstr "开头（前缀）"
+
+#~ msgid "End (suffix)"
+#~ msgstr "结尾（后缀）"
+
+#~ msgid "At position"
+#~ msgstr "指定位置"
+
+#~ msgid "Edit Insert Rule"
+#~ msgstr "编辑插入规则"
+
+#~ msgid "Specific text"
+#~ msgstr "特定文本"
+
+#~ msgid "First N characters"
+#~ msgstr "前 N 个字符"
+
+#~ msgid "Last N characters"
+#~ msgstr "后 N 个字符"
+
+#~ msgid "Bracketed content (…)"
+#~ msgstr "括号内容（…）"
+
+#, c-format
+#~ msgid "First %d characters"
+#~ msgstr "前 %d 个字符"
+
+#~ msgid "Edit Remove Rule"
+#~ msgstr "编辑删除规则"
+
+#~ msgid "Edit Numbering Rule"
+#~ msgstr "编辑编号规则"
+
+#~ msgid "File modified date"
+#~ msgstr "文件修改日期"
+
+#~ msgid "File created date"
+#~ msgstr "文件创建日期"
+
+#~ msgid "Edit Change Case Rule"
+#~ msgstr "编辑大小写规则"
+
+#~ msgid "Confirm"
+#~ msgstr "确认"
+
+#~ msgid "Select Preset"
+#~ msgstr "选择预设"
+
+#~ msgid "Apply"
+#~ msgstr "应用"
